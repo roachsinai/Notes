@@ -1,0 +1,3 @@
+1. grub2 environment block too small
+    解决方法：rm -rf /boot/grub/grubenv
+              grub-editenv/boot/grub/grubenv create
