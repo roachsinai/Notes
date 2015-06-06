@@ -1,38 +1,38 @@
 B
 	bcloud:
-		bcloud.noarch 3.7.1-1.git32abfb9.fc22                                         
-  		gnome-icon-theme.noarch 3.12.0-2.fc21                                         
-		gnome-icon-theme-symbolic.noarch 3.12.0-2.fc21                                
-		python3-crypto.x86_64 2.6.1-6.fc22                                            
+		bcloud.noarch 3.7.1-1.git32abfb9.fc22
+  		gnome-icon-theme.noarch 3.12.0-2.fc21
+		gnome-icon-theme-symbolic.noarch 3.12.0-2.fc21
+		python3-crypto.x86_64 2.6.1-6.fc22
 		python3-keyring.noarch 5.0-1.fc22 
 
 Y
 	youdao-dict
-		geoclue.x86_64 0.12.99-7.fc22                                                 
-	    leptonica.x86_64 1.72-1.fc22                                                  
-	  	libappindicator-gtk3.x86_64 12.10.0-8.fc22                                    
-	  	libdbusmenu.x86_64 12.10.2-8.fc22                                             
-	  	libdbusmenu-gtk3.x86_64 12.10.2-8.fc22                                        
-	  	libindicator-gtk3.x86_64 12.10.1-4.fc22                                       
-	  	openal-soft.x86_64 1.16.0-5.fc22                                              
-	  	python3-qt5.x86_64 5.4.1-1.fc22                                               
-	  	python3-sip.x86_64 4.16.6-1.fc22                                              
-	  	python3-xlib.noarch 0.15-1.gite68a323.fc22                                    
-	  	qt5-qtconnectivity.x86_64 5.4.1-2.fc22                                        
-	  	qt5-qtgraphicaleffects.x86_64 5.4.1-2.fc22                                    
-	  	qt5-qtlocation.x86_64 5.4.1-2.fc22                                            
-	  	qt5-qtmultimedia.x86_64 5.4.1-2.fc22                                          
-	  	qt5-qtquickcontrols.x86_64 5.4.1-2.fc22                                       
-	  	qt5-qtsensors.x86_64 5.4.1-2.fc22                                             
-	  	qt5-qtserialport.x86_64 5.4.1-1.fc22                                          
-	  	qt5-qtsvg.x86_64 5.4.1-2.fc22                                                 
-	  	qt5-qttools-common.noarch 5.4.1-2.fc22                                        
-	  	qt5-qttools-libs-clucene.x86_64 5.4.1-2.fc22                                  
-	  	qt5-qttools-libs-designer.x86_64 5.4.1-2.fc22                                 
-	  	qt5-qttools-libs-help.x86_64 5.4.1-2.fc22                                     
-	  	qt5-qtwebkit.x86_64 5.4.1-5.fc22                                              
-	  	qt5-qtx11extras.x86_64 5.4.1-2.fc22                                           
-	  	tesseract.x86_64 3.03-0.4.rc1.fc22                                            
-	  	tesseract-langpack-chi_sim.noarch 3.02-8.fc21                                 
-	  	tesseract-langpack-chi_tra.noarch 3.02-8.fc21                                 
+		geoclue.x86_64 0.12.99-7.fc22
+	    leptonica.x86_64 1.72-1.fc22
+	  	libappindicator-gtk3.x86_64 12.10.0-8.fc22
+	  	libdbusmenu.x86_64 12.10.2-8.fc22
+	  	libdbusmenu-gtk3.x86_64 12.10.2-8.fc22
+	  	libindicator-gtk3.x86_64 12.10.1-4.fc22
+	  	openal-soft.x86_64 1.16.0-5.fc22
+	  	python3-qt5.x86_64 5.4.1-1.fc22
+	  	python3-sip.x86_64 4.16.6-1.fc22
+	  	python3-xlib.noarch 0.15-1.gite68a323.fc22
+	  	qt5-qtconnectivity.x86_64 5.4.1-2.fc22
+	  	qt5-qtgraphicaleffects.x86_64 5.4.1-2.fc22
+	  	qt5-qtlocation.x86_64 5.4.1-2.fc22
+	  	qt5-qtmultimedia.x86_64 5.4.1-2.fc22
+	  	qt5-qtquickcontrols.x86_64 5.4.1-2.fc22
+	  	qt5-qtsensors.x86_64 5.4.1-2.fc22
+	  	qt5-qtserialport.x86_64 5.4.1-1.fc22
+	  	qt5-qtsvg.x86_64 5.4.1-2.fc22
+	  	qt5-qttools-common.noarch 5.4.1-2.fc22
+	  	qt5-qttools-libs-clucene.x86_64 5.4.1-2.fc22
+	  	qt5-qttools-libs-designer.x86_64 5.4.1-2.fc22
+	  	qt5-qttools-libs-help.x86_64 5.4.1-2.fc22
+	  	qt5-qtwebkit.x86_64 5.4.1-5.fc22
+	  	qt5-qtx11extras.x86_64 5.4.1-2.fc22
+	  	tesseract.x86_64 3.03-0.4.rc1.fc22
+	  	tesseract-langpack-chi_sim.noarch 3.02-8.fc21
+	  	tesseract-langpack-chi_tra.noarch 3.02-8.fc21
 	  	youdao-dict.x86_64 1.0.2-1.fc22
