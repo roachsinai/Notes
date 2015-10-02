@@ -476,3 +476,15 @@
 
            现在已经由本地的冲突，扩充到了远程的冲突，并可以解决；
 
+
+============================================================================================================================
+使用过程中出现的问题：
+1. git push origin master 出现错误
+   fatal：failed to write object
+   原因：期间用root提交了一次
+   解决方法：进入cd .git/objects
+                 ls | grep root
+                 chown -R "xq.xq" ./
+
+2. 修改远程仓库--origin的url
+   git remote set-url origin https://github.com/roachsinai/Notes.git
