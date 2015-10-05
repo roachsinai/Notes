@@ -20,3 +20,21 @@ menuentry 'Windows Boot Manager (on /dev/sda2)' --class windows --class os $menu
 
 注：if fi 那5行可以不写
 
+3. disktable
+
+设备           起点     末尾    扇区 大小 类型
+/dev/sda1        2048     616447    614400  300M Windows 恢复环境
+/dev/sda2      616448     819199    202752   99M EFI 系统
+/dev/sda3      819200    1081343    262144  128M Microsoft 保留
+/dev/sda4     1081344  208765169 207683826   99G Microsoft 基本数据
+/dev/sda5   208766976  209715199    948224  463M Windows 恢复环境
+/dev/sda6   209715200  398458879 188743680   90G Microsoft 基本数据
+/dev/sda7   398458880  639631359 241172480  115G Microsoft 基本数据
+/dev/sda8   639631360  901775359 262144000  125G Microsoft 基本数据
+/dev/sda9   901775360  922746879  20971520   10G Microsoft 基本数据
+/dev/sda10  922746880  923770879   1024000  500M Linux 文件系统
+/dev/sda11  923770880 1007656959  83886080   40G Linux 文件系统
+/dev/sda12 1007656960 1011851263   4194304    2G Linux swap
+/dev/sda13 1011851264 1190109183 178257920   85G Linux 文件系统
+
+
