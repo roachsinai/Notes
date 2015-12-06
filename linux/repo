@@ -1,0 +1,27 @@
+1. 安装 Google Chrome
+
+使用你惯用的编辑器，在 yum 库目录中打开或创建 google-chrome.repo 文件。
+
+sudo gedit /etc/yum.repos.d/google-chrome.repo
+加入以下内容并保存。
+
+[google-chrome]
+name=google-chrome
+baseurl=http://dl.google.com/linux/chrome/rpm/stable/$basearch
+enabled=1
+gpgcheck=1
+gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
+现在 yum 就配置好可以找到稳定版本的 Chrome 了，使用如下命令安装它。
+
+sudo dnf install google-chrome-stable
+
+2.配置中科大的源 网址
+https://lug.ustc.edu.cn/wiki/mirrors/help
+
+3.添加rpmfusion源：
+dnf install --nogpgcheck http://mirrors.ustc.edu.cn/fedora/rpmfusion/nonfree/fedora/rpmfusion-nonfree-release-stable.noarch.rpm
+
+dnf install --nogpgcheck http://mirrors.ustc.edu.cn/fedora/rpmfusion/free/fedora/rpmfusion-free-release-stable.noarch.rpm
+
+4. adobe源
+安装 rpm -ivh adobe-release-x86_64-1.0-1.noarch.rpm 后自动在 /etc/yum.repos.d中生成源

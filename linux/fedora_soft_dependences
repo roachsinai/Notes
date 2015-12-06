@@ -1,0 +1,480 @@
+3. sudo dnf install nautilus-open-terminal
+
+4. sudo dnf install gnome-tweak-tool
+安装:
+ gnome-shell-extension-user-theme   noarch   3.18.1-1.fc23      fedora     21 k
+ gnome-tweak-tool                   noarch   3.18.0-1.fc23      fedora    262 k
+ pycairo                            x86_64   1.10.0-2.fc23      fedora    515 k
+ python                             x86_64   2.7.10-8.fc23      fedora     94 k
+ python-gobject                     x86_64   3.18.0-2.fc23      updates    21 k
+ python-gobject-base                x86_64   3.18.0-2.fc23      updates   294 k
+ python-libs                        x86_64   2.7.10-8.fc23      fedora    5.8 M
+ python-pip                         noarch   7.1.0-1.fc23       fedora    1.5 M
+ python-setuptools                  noarch   18.0.1-2.fc23      fedora    425 k
+ python-xpyb                        x86_64   1.3.1-5.fc23       fedora    138 k
+
+5. 在dnf配置文件 /etc/dnf/dnf.conf 中添加fastestmirror=true即可启用fastestmirror。启用后在下载时会有（类似）提示 determining the fastest mirror (14 hosts).. done.表明已经启用fastestmirror。
+
+6. sudo dnf install unrar
+
+7. 网页添加Gnome插件，需要设置firefox插件选项--总是激活；
+
+8. sudo dnf install cairo-dock
+安装:
+ cairo-dock                     x86_64     3.4.1-2.fc23        fedora      17 k
+ cairo-dock-core                x86_64     3.4.1-2.fc23        fedora     1.1 M
+ cairo-dock-libs                x86_64     3.4.1-2.fc23        fedora     358 k
+ cairo-dock-plug-ins            x86_64     3.4.1-4.fc23        fedora     8.1 k
+ cairo-dock-plug-ins-base       x86_64     3.4.1-4.fc23        fedora     3.8 M
+ cairo-dock-plug-ins-common     noarch     3.4.1-4.fc23        fedora      28 k
+ cairo-dock-plug-ins-dbus       x86_64     3.4.1-4.fc23        fedora     128 k
+ cairo-dock-plug-ins-kde        x86_64     3.4.1-4.fc23        fedora      30 k
+ cairo-dock-plug-ins-xfce       x86_64     3.4.1-4.fc23        fedora      30 k
+ cairo-dock-python2             noarch     3.4.1-4.fc23        fedora      19 k
+ dbus-python                    x86_64     1.2.0-8.fc23        fedora     131 k
+ fftw-libs-double               x86_64     3.3.4-6.fc23        fedora     805 k
+ libXaw                         x86_64     1.0.13-2.fc23       fedora     191 k
+ libdbusmenu                    x86_64     12.10.2-9.fc23      fedora      74 k
+ libdbusmenu-gtk3               x86_64     12.10.2-9.fc23      fedora      37 k
+ libetpan                       x86_64     1.6-5.fc23          fedora     309 k
+ libindicator-gtk3              x86_64     12.10.1-5.fc23      fedora      67 k
+ liblockfile                    x86_64     1.09-3.fc23         fedora      28 k
+ libzeitgeist                   x86_64     0.3.18-9.fc23       fedora      66 k
+ lm_sensors-libs                x86_64     3.4.0-3.fc23        fedora      46 k
+ pygobject2                     x86_64     2.28.6-14.fc23      fedora     232 k
+ xterm                          x86_64     318-2.fc23          fedora     503 k
+
+9. sudo dnf install terminator
+安装:
+ ORBit2                    x86_64      2.14.19-14.fc23        fedora      180 k
+ gamin                     x86_64      0.1.10-18.fc23         fedora      133 k
+ gnome-python2             x86_64      2.28.1-16.fc23         fedora       51 k
+ gnome-python2-bonobo      x86_64      2.28.1-16.fc23         fedora       92 k
+ gnome-python2-canvas      x86_64      2.28.1-16.fc23         fedora       38 k
+ gnome-python2-gconf       x86_64      2.28.1-16.fc23         fedora       50 k
+ gnome-vfs2                x86_64      2.24.4-19.fc23         fedora      384 k
+ gnome-vfs2-common         noarch      2.24.4-19.fc23         fedora      396 k
+ keybinder                 x86_64      0.3.0-6.fc23           fedora       18 k
+ libIDL                    x86_64      0.8.14-10.fc23         fedora       90 k
+ libart_lgpl               x86_64      2.3.21-13.fc23         fedora       71 k
+ libbonobo                 x86_64      2.32.1-8.fc22          fedora      442 k
+ libbonoboui               x86_64      2.24.5-9.fc23          fedora      347 k
+ libglade2                 x86_64      2.6.4-13.fc23          fedora       67 k
+ libgnome                  x86_64      2.32.1-10.fc23         fedora      745 k
+ libgnomecanvas            x86_64      2.30.3-10.fc23         fedora      232 k
+ pygobject2                x86_64      2.28.6-14.fc23         fedora      232 k
+ pygtk2                    x86_64      2.24.0-12.fc23         fedora      921 k
+ pyorbit                   x86_64      2.24.0-18.fc23         fedora       55 k
+ python-keybinder          x86_64      0.3.0-6.fc23           fedora       23 k
+ terminator                noarch      0.98-1.fc23            fedora      3.4 M
+ vte                       x86_64      0.28.2-16.fc23         fedora      374 k
+
+事务概要
+================================================================================
+安装  22 Packages
+
+10. sudo dnf install guake
+文件5:28:36上一次的元数据过期检查在Mon Nov 16 12:28:26 2015之前进行。
+依赖关系解决。
+================================================================================
+ 软件包                架构         版本                    仓库           大小
+================================================================================
+安装:
+ dbus-python           x86_64       1.2.0-8.fc23            fedora        131 k
+ guake                 noarch       0.8.3-1.fc23            updates       304 k
+ notify-python         x86_64       0.1.1-29.fc23           fedora         38 k
+ pygtk2-libglade       x86_64       2.24.0-12.fc23          fedora         30 k
+ pyxdg                 noarch       0.25-6.fc23             fedora         92 k
+
+事务概要
+================================================================================
+安装  5 Packages
+
+11. dnf install exfat-utils fuse-exfat
+文件5:39:12上一次的元数据过期检查在Mon Nov 16 12:28:26 2015之前进行。
+依赖关系解决。
+================================================================================
+ 软件包        架构     版本             仓库                              大小
+================================================================================
+安装:
+ exfat-utils   x86_64   1.2.2-1.fc23     rpmfusion-free-updates-testing    63 k
+ fuse-exfat    x86_64   1.2.2-1.fc23     rpmfusion-free-updates-testing    40 k
+
+事务概要
+================================================================================
+安装  2 Packages
+
+12. dnf install vim
+安装:
+ gpm-libs             x86_64       1.20.7-7.fc23             fedora        36 k
+ vim-common           x86_64       2:7.4.827-1.fc23          fedora       6.0 M
+ vim-enhanced         x86_64       2:7.4.827-1.fc23          fedora       1.1 M
+ vim-filesystem       x86_64       2:7.4.827-1.fc23          fedora        22 k
+
+事务概要
+================================================================================
+安装  4 Packages
+
+13. dnf install google-chrome-stable
+文件0:06:23上一次的元数据过期检查在Mon Nov 16 19:37:15 2015之前进行。
+依赖关系解决。
+================================================================================
+ 软件包                       架构   版本                   仓库           大小
+================================================================================
+安装:
+ binutils                     x86_64 2.25-15.fc23           fedora        5.6 M
+ ed                           x86_64 1.10-5.fc23            fedora         77 k
+ esmtp                        x86_64 1.0-14.fc23            fedora         54 k
+ gdbm-devel                   x86_64 1.11-6.fc23            fedora         59 k
+ glibc-devel                  x86_64 2.22-3.fc23            fedora        909 k
+ glibc-headers                x86_64 2.22-3.fc23            fedora        493 k
+ google-chrome-stable         x86_64 46.0.2490.86-1         google-chrome  45 M
+ kernel-headers               x86_64 4.2.5-300.fc23         updates       988 k
+ libXScrnSaver                x86_64 1.2.2-9.fc23           fedora         28 k
+ libdb-devel                  x86_64 5.3.28-13.fc23         fedora         43 k
+ libesmtp                     x86_64 1.0.6-9.fc23           fedora         66 k
+ libpng12                     x86_64 1.2.50-9.fc23          fedora        156 k
+ m4                           x86_64 1.4.17-8.fc23          fedora        266 k
+ mailx                        x86_64 12.5-17.fc23           fedora        257 k
+ patch                        x86_64 2.7.5-2.fc23           fedora        123 k
+ perl-Algorithm-Diff          noarch 1.1903-3.fc23          fedora         51 k
+ perl-Archive-Tar             noarch 2.04-347.fc23          fedora         76 k
+ perl-Archive-Zip             noarch 1.49-1.fc23            fedora        105 k
+ perl-B-Lint                  noarch 1.20-5.fc23            fedora         24 k
+ perl-Business-ISBN           noarch 2.09-7.fc23            fedora         31 k
+ perl-Business-ISBN-Data      noarch 20140910.002-3.fc23    fedora         30 k
+ perl-CGI                     noarch 4.21-1.fc23            fedora        203 k
+ perl-CPAN                    noarch 2.11-347.fc23          fedora        549 k
+ perl-CPAN-Meta               noarch 2.150005-2.fc23        fedora        173 k
+ perl-CPAN-Meta-Requirements  noarch 2.133-4.fc23           fedora         34 k
+ perl-CPAN-Meta-YAML          noarch 0.016-4.fc23           fedora         32 k
+ perl-Class-ISA               noarch 0.36-1016.fc23         fedora         14 k
+ perl-Compress-Bzip2          x86_64 2.22-4.fc23            fedora         70 k
+ perl-Compress-Raw-Bzip2      x86_64 2.068-347.fc23         fedora         37 k
+ perl-Compress-Raw-Zlib       x86_64 2.068-347.fc23         fedora         63 k
+ perl-Data-OptList            noarch 0.109-6.fc23           fedora         28 k
+ perl-Data-Section            noarch 0.200006-5.fc23        fedora         28 k
+ perl-Devel-Size              x86_64 0.80-3.fc23            fedora         45 k
+ perl-Digest                  noarch 1.17-346.fc23          fedora         26 k
+ perl-Digest-HMAC             noarch 1.03-11.fc23           fedora         19 k
+ perl-Digest-MD5              x86_64 2.54-346.fc23          fedora         35 k
+ perl-Digest-SHA              x86_64 1:5.95-347.fc23        fedora         63 k
+ perl-Encode-Locale           noarch 1.05-3.fc23            fedora         20 k
+ perl-Env                     noarch 1.04-346.fc23          fedora         20 k
+ perl-ExtUtils-CBuilder       noarch 1:0.280224-1.fc23      updates        47 k
+ perl-ExtUtils-Command        noarch 1.20-346.fc23          fedora         25 k
+ perl-ExtUtils-Install        noarch 2.04-347.fc23          fedora         45 k
+ perl-ExtUtils-MakeMaker      noarch 7.04-346.fc23          fedora        277 k
+ perl-ExtUtils-Manifest       noarch 1.70-346.fc23          fedora         35 k
+ perl-ExtUtils-ParseXS        noarch 1:3.30-1.fc23          fedora         81 k
+ perl-File-CheckTree          noarch 4.42-295.fc23          fedora         22 k
+ perl-File-HomeDir            noarch 1.00-10.fc23           fedora         61 k
+ perl-File-Listing            noarch 6.04-11.fc23           fedora         17 k
+ perl-File-Which              noarch 1.18-5.fc23            fedora         22 k
+ perl-HTML-Parser             x86_64 3.71-11.fc23           fedora        116 k
+ perl-HTML-Tagset             noarch 3.20-24.fc23           fedora         22 k
+ perl-HTTP-Cookies            noarch 6.01-11.fc23           fedora         29 k
+ perl-HTTP-Date               noarch 6.02-12.fc23           fedora         18 k
+ perl-HTTP-Message            noarch 6.11-1.fc23            fedora         88 k
+ perl-HTTP-Negotiate          noarch 6.01-11.fc23           fedora         21 k
+ perl-IO-Compress             noarch 2.068-347.fc23         fedora        254 k
+ perl-IO-HTML                 noarch 1.001-4.fc23           fedora         27 k
+ perl-IO-Socket-IP            noarch 0.37-347.fc23          fedora         45 k
+ perl-IO-Socket-SSL           noarch 2.019-1.fc23           fedora        240 k
+ perl-IO-Zlib                 noarch 1:1.10-349.fc23        fedora         65 k
+ perl-IPC-Cmd                 noarch 1:0.92-346.fc23        fedora         40 k
+ perl-IPC-System-Simple       noarch 1.25-7.fc23            fedora         41 k
+ perl-JSON-PP                 noarch 2.27300-347.fc23       fedora         59 k
+ perl-LWP-MediaTypes          noarch 6.02-8.fc23            fedora         28 k
+ perl-Locale-Codes            noarch 3.35-3.fc23            fedora        292 k
+ perl-Locale-Maketext         noarch 1.26-347.fc23          fedora         95 k
+ perl-Locale-Maketext-Simple  noarch 1:0.21-349.fc23        fedora         63 k
+ perl-MRO-Compat              noarch 0.12-9.fc23            fedora         23 k
+ perl-Math-BigInt             noarch 1.9997-349.fc23        fedora        188 k
+ perl-Module-Build            noarch 2:0.42.14-2.fc23       fedora        272 k
+ perl-Module-CoreList         noarch 1:5.20151020-1.fc23    updates        72 k
+ perl-Module-Load             noarch 1:0.32-346.fc23        fedora         17 k
+ perl-Module-Load-Conditional noarch 0.64-346.fc23          fedora         23 k
+ perl-Module-Metadata         noarch 1.000027-3.fc23        fedora         40 k
+ perl-Module-Pluggable        noarch 1:5.10-6.fc23          fedora         34 k
+ perl-NTLM                    noarch 1.09-11.fc23           fedora         23 k
+ perl-Net-HTTP                noarch 6.09-3.fc23            fedora         32 k
+ perl-Net-SSLeay              x86_64 1.71-1.fc23            fedora        320 k
+ perl-Package-Generator       noarch 1.106-5.fc23           fedora         26 k
+ perl-Params-Check            noarch 1:0.38-346.fc23        fedora         22 k
+ perl-Params-Util             x86_64 1.07-13.fc23           fedora         42 k
+ perl-Parse-CPAN-Meta         noarch 1:1.4417-2.fc23        fedora         30 k
+ perl-Perl-OSType             noarch 1.008-347.fc23         fedora         27 k
+ perl-Pod-Checker             noarch 4:1.71-5.fc23          fedora         30 k
+ perl-Pod-LaTeX               noarch 0.61-296.fc23          fedora         40 k
+ perl-Pod-Parser              noarch 1.63-347.fc23          fedora        107 k
+ perl-Pod-Plainer             noarch 1.03-10.fc23           fedora         13 k
+ perl-Software-License        noarch 0.103010-5.fc23        fedora        128 k
+ perl-Sub-Exporter            noarch 0.987-6.fc23           fedora         72 k
+ perl-Sub-Install             noarch 0.928-6.fc23           fedora         25 k
+ perl-Sys-Syslog              x86_64 0.33-347.fc23          fedora         47 k
+ perl-Test-Harness            noarch 3.35-347.fc23          fedora        277 k
+ perl-Test-Simple             noarch 1.001014-346.fc23      fedora        203 k
+ perl-Text-Diff               noarch 1.43-1.fc23            fedora         44 k
+ perl-Text-Glob               noarch 0.09-13.fc23           fedora         16 k
+ perl-Text-Soundex            x86_64 3.04-296.fc23          fedora         23 k
+ perl-Text-Template           noarch 1.46-3.fc23            fedora         67 k
+ perl-Text-Unidecode          noarch 1.27-1.fc23            updates       145 k
+ perl-TimeDate                noarch 1:2.30-7.fc23          fedora         52 k
+ perl-URI                     noarch 1.69-1.fc23            fedora        116 k
+ perl-WWW-RobotRules          noarch 6.02-12.fc23           fedora         21 k
+ perl-XML-LibXML              x86_64 1:2.0121-5.fc23        fedora        365 k
+ perl-XML-NamespaceSupport    noarch 1.11-16.fc23           fedora         22 k
+ perl-XML-SAX                 noarch 0.99-15.fc23           fedora         64 k
+ perl-XML-SAX-Base            noarch 1.08-14.fc23           fedora         34 k
+ perl-autodie                 noarch 2.29-1.fc23            fedora         97 k
+ perl-devel                   x86_64 4:5.22.0-349.fc23      fedora        550 k
+ perl-inc-latest              noarch 2:0.500-3.fc23         fedora         24 k
+ perl-libnet                  noarch 3.07-1.fc23            fedora        126 k
+ perl-libwww-perl             noarch 6.13-3.fc23            fedora        202 k
+ perl-local-lib               noarch 2.000017-1.fc23        fedora         72 k
+ perl-version                 x86_64 5:0.99.12-4.fc23       fedora         94 k
+ python3-pyparsing            noarch 2.0.3-2.fc23           fedora        105 k
+ qt3                          x86_64 3.3.8b-65.fc23         fedora        3.5 M
+ redhat-lsb                   x86_64 4.1-30.fc23            fedora         30 k
+ redhat-lsb-core              x86_64 4.1-30.fc23            fedora         42 k
+ redhat-lsb-cxx               x86_64 4.1-30.fc23            fedora         21 k
+ redhat-lsb-desktop           x86_64 4.1-30.fc23            fedora         25 k
+ redhat-lsb-languages         x86_64 4.1-30.fc23            fedora         22 k
+ redhat-lsb-printing          x86_64 4.1-30.fc23            fedora         21 k
+ redhat-lsb-submod-multimedia x86_64 4.1-30.fc23            fedora         20 k
+ redhat-lsb-submod-security   x86_64 4.1-30.fc23            fedora         20 k
+ spax                         x86_64 1.5.3-5.fc23           fedora        211 k
+ systemtap-sdt-devel          x86_64 2.9-1.fc23             fedora         68 k
+
+事务概要
+================================================================================
+安装  124 Packages
+
+运行事务
+  安装    : perl-version-5:0.99.12-4.fc23.x86_64                          1/124 
+  安装    : perl-Compress-Raw-Zlib-2.068-347.fc23.x86_64                  2/124 
+  安装    : perl-Test-Harness-3.35-347.fc23.noarch                        3/124 
+  安装    : perl-Sub-Install-0.928-6.fc23.noarch                          4/124 
+  安装    : perl-IO-Socket-IP-0.37-347.fc23.noarch                        5/124 
+  安装    : perl-libnet-3.07-1.fc23.noarch                                6/124 
+  安装    : perl-ExtUtils-Manifest-1.70-346.fc23.noarch                   7/124 
+  安装    : perl-CPAN-Meta-Requirements-2.133-4.fc23.noarch               8/124 
+  安装    : perl-Module-Metadata-1.000027-3.fc23.noarch                   9/124 
+  安装    : perl-Params-Util-1.07-13.fc23.x86_64                         10/124 
+  安装    : perl-Module-Load-1:0.32-346.fc23.noarch                      11/124 
+  安装    : perl-LWP-MediaTypes-6.02-8.fc23.noarch                       12/124 
+  安装    : perl-Encode-Locale-1.05-3.fc23.noarch                        13/124 
+  安装    : perl-Perl-OSType-1.008-347.fc23.noarch                       14/124 
+  安装    : perl-Digest-1.17-346.fc23.noarch                             15/124 
+  安装    : perl-Digest-MD5-2.54-346.fc23.x86_64                         16/124 
+  安装    : perl-Digest-SHA-1:5.95-347.fc23.x86_64                       17/124 
+  安装    : perl-XML-SAX-Base-1.08-14.fc23.noarch                        18/124 
+  安装    : perl-XML-NamespaceSupport-1.11-16.fc23.noarch                19/124 
+  安装    : perl-Pod-Parser-1.63-347.fc23.noarch                         20/124 
+  安装    : perl-Locale-Maketext-1.26-347.fc23.noarch                    21/124 
+  安装    : perl-Locale-Maketext-Simple-1:0.21-349.fc23.noarch           22/124 
+  安装    : perl-Params-Check-1:0.38-346.fc23.noarch                     23/124 
+  安装    : perl-Pod-LaTeX-0.61-296.fc23.noarch                          24/124 
+  安装    : perl-Pod-Plainer-1.03-10.fc23.noarch                         25/124 
+  安装    : perl-Digest-HMAC-1.03-11.fc23.noarch                         26/124 
+  安装    : perl-NTLM-1.09-11.fc23.noarch                                27/124 
+  安装    : perl-Data-OptList-0.109-6.fc23.noarch                        28/124 
+  安装    : perl-Test-Simple-1.001014-346.fc23.noarch                    29/124 
+  安装    : perl-Archive-Zip-1.49-1.fc23.noarch                          30/124 
+  安装    : perl-Module-CoreList-1:5.20151020-1.fc23.noarch              31/124 
+  安装    : perl-Module-Load-Conditional-0.64-346.fc23.noarch            32/124 
+  安装    : libesmtp-1.0.6-9.fc23.x86_64                                 33/124 
+  安装    : esmtp-1.0-14.fc23.x86_64                                     34/124 
+  安装    : kernel-headers-4.2.5-300.fc23.x86_64                         35/124 
+  安装    : glibc-headers-2.22-3.fc23.x86_64                             36/124 
+  安装    : glibc-devel-2.22-3.fc23.x86_64                               37/124 
+  安装    : python3-pyparsing-2.0.3-2.fc23.noarch                        38/124 
+  安装    : systemtap-sdt-devel-2.9-1.fc23.x86_64                        39/124 
+  安装    : libdb-devel-5.3.28-13.fc23.x86_64                            40/124 
+  安装    : gdbm-devel-1.11-6.fc23.x86_64                                41/124 
+  安装    : perl-Text-Unidecode-1.27-1.fc23.noarch                       42/124 
+  安装    : perl-Text-Soundex-3.04-296.fc23.x86_64                       43/124 
+  安装    : perl-Net-SSLeay-1.71-1.fc23.x86_64                           44/124 
+  安装    : perl-Package-Generator-1.106-5.fc23.noarch                   45/124 
+  安装    : perl-Sub-Exporter-0.987-6.fc23.noarch                        46/124 
+  安装    : perl-MRO-Compat-0.12-9.fc23.noarch                           47/124 
+  安装    : perl-Data-Section-0.200006-5.fc23.noarch                     48/124 
+  安装    : perl-Math-BigInt-1.9997-349.fc23.noarch                      49/124 
+  安装    : perl-JSON-PP-2.27300-347.fc23.noarch                         50/124 
+  安装    : perl-TimeDate-1:2.30-7.fc23.noarch                           51/124 
+  安装    : perl-HTTP-Date-6.02-12.fc23.noarch                           52/124 
+  安装    : perl-File-Listing-6.04-11.fc23.noarch                        53/124 
+  安装    : perl-Business-ISBN-Data-20140910.002-3.fc23.noarch           54/124 
+  安装    : perl-Business-ISBN-2.09-7.fc23.noarch                        55/124 
+  安装    : perl-URI-1.69-1.fc23.noarch                                  56/124 
+  安装    : perl-WWW-RobotRules-6.02-12.fc23.noarch                      57/124 
+  安装    : perl-IO-Socket-SSL-2.019-1.fc23.noarch                       58/124 
+  安装    : perl-Text-Template-1.46-3.fc23.noarch                        59/124 
+  安装    : perl-Software-License-0.103010-5.fc23.noarch                 60/124 
+  安装    : perl-CPAN-Meta-YAML-0.016-4.fc23.noarch                      61/124 
+  安装    : perl-Parse-CPAN-Meta-1:1.4417-2.fc23.noarch                  62/124 
+  安装    : perl-CPAN-Meta-2.150005-2.fc23.noarch                        63/124 
+  安装    : perl-Algorithm-Diff-1.1903-3.fc23.noarch                     64/124 
+  安装    : perl-Text-Diff-1.43-1.fc23.noarch                            65/124 
+  安装    : perl-IO-HTML-1.001-4.fc23.noarch                             66/124 
+  安装    : perl-Compress-Raw-Bzip2-2.068-347.fc23.x86_64                67/124 
+  安装    : perl-IO-Compress-2.068-347.fc23.noarch                       68/124 
+  安装    : perl-HTTP-Message-6.11-1.fc23.noarch                         69/124 
+  安装    : perl-HTTP-Cookies-6.01-11.fc23.noarch                        70/124 
+  安装    : perl-HTTP-Negotiate-6.01-11.fc23.noarch                      71/124 
+  安装    : perl-IO-Zlib-1:1.10-349.fc23.noarch                          72/124 
+  安装    : perl-Archive-Tar-2.04-347.fc23.noarch                        73/124 
+  安装    : perl-Net-HTTP-6.09-3.fc23.noarch                             74/124 
+  安装    : perl-File-Which-1.18-5.fc23.noarch                           75/124 
+  安装    : perl-File-HomeDir-1.00-10.fc23.noarch                        76/124 
+  安装    : perl-HTML-Tagset-3.20-24.fc23.noarch                         77/124 
+  安装    : perl-HTML-Parser-3.71-11.fc23.x86_64                         78/124 
+  安装    : perl-CGI-4.21-1.fc23.noarch                                  79/124 
+  安装    : perl-libwww-perl-6.13-3.fc23.noarch                          80/124 
+  安装    : perl-XML-SAX-0.99-15.fc23.noarch                             81/124 
+  安装    : perl-XML-LibXML-1:2.0121-5.fc23.x86_64                       82/124 
+  安装    : perl-IPC-System-Simple-1.25-7.fc23.noarch                    83/124 
+  安装    : perl-autodie-2.29-1.fc23.noarch                              84/124 
+  安装    : perl-ExtUtils-Command-1.20-346.fc23.noarch                   85/124 
+  安装    : perl-ExtUtils-ParseXS-1:3.30-1.fc23.noarch                   86/124 
+  安装    : perl-devel-4:5.22.0-349.fc23.x86_64                          87/124 
+  安装    : perl-ExtUtils-Install-2.04-347.fc23.noarch                   88/124 
+  安装    : perl-ExtUtils-MakeMaker-7.04-346.fc23.noarch                 89/124 
+  安装    : perl-IPC-Cmd-1:0.92-346.fc23.noarch                          90/124 
+  安装    : perl-ExtUtils-CBuilder-1:0.280224-1.fc23.noarch              91/124 
+  安装    : perl-inc-latest-2:0.500-3.fc23.noarch                        92/124 
+  安装    : perl-Module-Build-2:0.42.14-2.fc23.noarch                    93/124 
+  安装    : perl-local-lib-2.000017-1.fc23.noarch                        94/124 
+  安装    : perl-Text-Glob-0.09-13.fc23.noarch                           95/124 
+  安装    : perl-Devel-Size-0.80-3.fc23.x86_64                           96/124 
+  安装    : perl-Compress-Bzip2-2.22-4.fc23.x86_64                       97/124 
+  安装    : perl-CPAN-2.11-347.fc23.noarch                               98/124 
+  安装    : perl-Module-Pluggable-1:5.10-6.fc23.noarch                   99/124 
+  安装    : perl-B-Lint-1.20-5.fc23.noarch                              100/124 
+  安装    : perl-Sys-Syslog-0.33-347.fc23.x86_64                        101/124 
+  安装    : perl-Pod-Checker-4:1.71-5.fc23.noarch                       102/124 
+  安装    : perl-Locale-Codes-3.35-3.fc23.noarch                        103/124 
+  安装    : perl-File-CheckTree-4.42-295.fc23.noarch                    104/124 
+  安装    : perl-Env-1.04-346.fc23.noarch                               105/124 
+  安装    : perl-Class-ISA-0.36-1016.fc23.noarch                        106/124 
+  安装    : redhat-lsb-submod-multimedia-4.1-30.fc23.x86_64             107/124 
+  安装    : qt3-3.3.8b-65.fc23.x86_64                                   108/124 
+  安装    : libpng12-1.2.50-9.fc23.x86_64                               109/124 
+  安装    : spax-1.5.3-5.fc23.x86_64                                    110/124 
+  安装    : redhat-lsb-submod-security-4.1-30.fc23.x86_64               111/124 
+  安装    : patch-2.7.5-2.fc23.x86_64                                   112/124 
+  安装    : mailx-12.5-17.fc23.x86_64                                   113/124 
+  安装    : m4-1.4.17-8.fc23.x86_64                                     114/124 
+  安装    : ed-1.10-5.fc23.x86_64                                       115/124 
+  安装    : binutils-2.25-15.fc23.x86_64                                116/124 
+  安装    : redhat-lsb-core-4.1-30.fc23.x86_64                          117/124 
+  安装    : redhat-lsb-cxx-4.1-30.fc23.x86_64                           118/124 
+  安装    : redhat-lsb-desktop-4.1-30.fc23.x86_64                       119/124 
+  安装    : redhat-lsb-languages-4.1-30.fc23.x86_64                     120/124 
+  安装    : redhat-lsb-printing-4.1-30.fc23.x86_64                      121/124 
+  安装    : redhat-lsb-4.1-30.fc23.x86_64                               122/124 
+  安装    : libXScrnSaver-1.2.2-9.fc23.x86_64                           123/124 
+  安装    : google-chrome-stable-46.0.2490.86-1.x86_64                  124/124
+
+14. sudo dnf install p7zip
+
+15. sudo dnf install ibus-rime
+文件1 day, 2:06:53上一次的元数据过期检查在Mon Nov 16 20:15:50 2015之前进行。
+依赖关系解决。
+================================================================================
+ 软件包                  架构         版本                   仓库          大小
+================================================================================
+安装:
+ boost-filesystem        x86_64       1.58.0-8.fc23          fedora        74 k
+ boost-regex             x86_64       1.58.0-8.fc23          fedora       297 k
+ boost-signals           x86_64       1.58.0-8.fc23          fedora        72 k
+ brise                   x86_64       0.35-2.fc23            fedora        18 M
+ gflags                  x86_64       2.1.1-8.fc23           fedora        74 k
+ glog                    x86_64       0.3.3-10.fc23          fedora        61 k
+ ibus-rime               x86_64       1.2-2.fc23             fedora        43 k
+ kyotocabinet-libs       x86_64       1.2.76-9.fc23          fedora       317 k
+ librime                 x86_64       1.2-6.fc23             fedora       727 k
+ yaml-cpp                x86_64       0.5.1-10.fc23          fedora       176 k
+
+事务概要
+================================================================================
+安装  10 Packages
+
+16. sudo dnf install ruby ruby-devel
+[sudo] xq 的密码：
+上次元数据过期检查在 0:08:04 前执行于 Sat Dec  5 07:32:22 2015。
+依赖关系解决。
+================================================================================
+ Package                  架构         版本                  仓库          大小
+================================================================================
+安装:
+ ruby                     x86_64       2.2.3-44.fc23         fedora        75 k
+ ruby-devel               x86_64       2.2.3-44.fc23         fedora       139 k
+ ruby-irb                 noarch       2.2.3-44.fc23         fedora        93 k
+ ruby-libs                x86_64       2.2.3-44.fc23         fedora       2.8 M
+ rubygem-bigdecimal       x86_64       1.2.6-44.fc23         fedora        86 k
+ rubygem-io-console       x86_64       0.4.3-44.fc23         fedora        56 k
+ rubygem-json             x86_64       1.8.3-100.fc23        fedora        65 k
+ rubygem-psych            x86_64       2.0.8-44.fc23         fedora        86 k
+ rubygem-rdoc             noarch       4.2.0-44.fc23         fedora       481 k
+ rubygems                 noarch       2.4.8-100.fc23        fedora       269 k
+ rubypick                 noarch       1.1.1-4.fc23          fedora        11 k
+
+事务概要
+================================================================================
+安装  11 Packages
+
+17. sudo dnf install nodejs
+上次元数据过期检查在 0:10:13 前执行于 Sat Dec  5 07:32:22 2015。
+依赖关系解决。
+================================================================================================
+ Package                架构          版本                                  仓库           大小
+================================================================================================
+安装:
+ compat-libuv010        x86_64        1:0.10.34-3.fc23                      fedora         65 k
+ http-parser            x86_64        2.0-9.20121128gitcd01361.fc23         fedora         30 k
+ nodejs                 x86_64        0.10.36-4.fc23                        fedora        398 k
+ v8                     x86_64        1:3.14.5.10-21.fc23                   fedora        3.0 M
+
+事务概要
+================================================================================================
+安装  4 Packages
+
+18. sudo dnf install gcc
+上次元数据过期检查在 0:22:27 前执行于 Sat Dec  5 07:32:22 2015。
+依赖关系解决。
+================================================================================================
+ Package             架构                版本                         仓库                 大小
+================================================================================================
+安装:
+ cpp                 x86_64              5.1.1-4.fc23                 fedora              8.5 M
+ gcc                 x86_64              5.1.1-4.fc23                 fedora               19 M
+ isl                 x86_64              0.14-4.fc23                  fedora              490 k
+ libmpc              x86_64              1.0.2-4.fc23                 fedora               55 k
+
+事务概要
+================================================================================================
+安装  4 Packages
+
+### 19-22 运行jekyl 事后都删除了
+19. sudo dnf group install "C Development Tools and Libraries"
+20. sudo dnf install libffi-devel
+21. sudo dnf install kernel-devel
+22. sudo dnf groupinstall "Development Tools" "Development Libraries"
+22. sudo dnf install rpm-build
+
+sudo dnf install gcc-c++
+上次元数据过期检查在 1:38:02 前执行于 Sun Dec  6 07:47:45 2015。
+依赖关系解决。
+==================================================================
+ Package             架构       版本             仓库        大小
+==================================================================
+安装:
+ gcc-c++             x86_64     5.1.1-4.fc23     fedora      10 M
+ libstdc++-devel     x86_64     5.1.1-4.fc23     fedora     1.6 M
+
+事务概要
+==================================================================
+安装  2 Packages
+
