@@ -352,3 +352,62 @@ sudo dnf install gcc-c++
 ==================================================================
 安装  2 Packages
 
+23.  pip install matplotlib
+You are using pip version 7.1.0, however version 7.1.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+24.dnf install python-matplotlib
+上次元数据过期检查在 1 day, 18:49:26 前执行于 Fri Dec 11 22:40:45 2015。
+依赖关系解决。
+================================================================================
+ Package              架构   版本                                 仓库     大小
+================================================================================
+安装:
+ SDL                  x86_64 1.2.15-20.fc23                       updates 213 k
+ agg                  x86_64 2.5-23.fc23                          fedora  147 k
+ atlas                x86_64 3.10.2-6.fc23                        fedora  5.7 M
+ libgfortran          x86_64 5.1.1-4.fc23                         fedora  285 k
+ libquadmath          x86_64 5.1.1-4.fc23                         fedora  173 k
+ numpy                x86_64 1:1.9.2-2.fc23                       fedora  3.0 M
+ perl-Filter          x86_64 2:1.55-1.fc23                        fedora   79 k
+ perl-Tk              x86_64 804.033-3.fc23                       fedora  2.1 M
+ perl-XML-Parser      x86_64 2.44-3.fc23                          fedora  224 k
+ perl-XML-XPath       noarch 1.13-28.fc23                         fedora   77 k
+ perl-encoding        x86_64 3:2.17-2.fc23                        fedora   62 k
+ perl-open            noarch 1.10-349.fc23                        fedora   62 k
+ pyparsing            noarch 2.0.3-2.fc23                         fedora  103 k
+ python-dateutil      noarch 1:2.4.2-2.fc23                       fedora   88 k
+ python-matplotlib    x86_64 1.4.3-6.fc23                         fedora   35 M
+ python-matplotlib-data
+                      noarch 1.4.3-6.fc23                         fedora  2.3 M
+ python-matplotlib-data-fonts
+                      noarch 1.4.3-6.fc23                         fedora  991 k
+ python-matplotlib-tk x86_64 1.4.3-6.fc23                         fedora   79 k
+ python-nose          noarch 1.3.7-4.fc23                         fedora  280 k
+ python-six           noarch 1.9.0-3.fc23                         fedora   34 k
+ pytz                 noarch 2015.4-1.fc23                        fedora   60 k
+ qhull                x86_64 2003.1-26.fc23                       fedora  358 k
+ stix-math-fonts      noarch 1.1.0-8.fc23                         fedora  291 k
+ texlive-base         noarch 4:2014-15.20140525_r34255.fc23       updates 1.4 M
+ texlive-dvipng       noarch 4:svn29821.1.14-15.fc23              updates  52 k
+ texlive-dvipng-bin   x86_64 4:svn30845.0-15.20140525_r34255.fc23 updates  72 k
+ texlive-hyphen-base  noarch 4:svn31131.0-15.fc23                 updates  48 k
+ texlive-kpathsea     noarch 4:svn32266.0-15.fc23                 updates 149 k
+ texlive-kpathsea-bin x86_64 4:svn30088.0-15.20140525_r34255.fc23 updates  49 k
+ texlive-kpathsea-lib x86_64 4:2014-15.20140525_r34255.fc23       updates  97 k
+ texlive-metafont     noarch 4:svn29764.2.718281-15.fc23          updates  72 k
+ texlive-metafont-bin x86_64 4:svn30088.0-15.20140525_r34255.fc23 updates 210 k
+ texlive-tetex        noarch 4:svn33394.3.0-15.fc23               updates 101 k
+ texlive-tetex-bin    noarch 4:svn29741.0-15.20140525_r34255.fc23 updates  27 k
+ texlive-texlive.infra
+                      noarch 4:svn32920.0-15.fc23                 updates 151 k
+ texlive-texlive.infra-bin
+                      x86_64 4:svn29741.0-15.20140525_r34255.fc23 updates  25 k
+ tix                  x86_64 1:8.4.3-16.fc23                      fedora  259 k
+ tk                   x86_64 1:8.6.4-2.fc23                       fedora  1.6 M
+ tkinter              x86_64 2.7.10-8.fc23                        fedora  382 k
+
+事务概要
+================================================================================
+安装  39 Packages
+
