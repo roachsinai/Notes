@@ -411,3 +411,23 @@ You should consider upgrading via the 'pip install --upgrade pip' command.
 ================================================================================
 安装  39 Packages
 
+25.dnf install python-scikit-learn
+上次元数据过期检查在 21:19:15 前执行于 Fri Jan 15 13:57:56 2016。
+依赖关系解决。
+================================================================================
+ Package                  架构        版本                   仓库          大小
+================================================================================
+安装:
+ blas                     x86_64      3.5.0-12.fc23          fedora       406 k
+ lapack                   x86_64      3.5.0-12.fc23          fedora       5.8 M
+ numpy-f2py               x86_64      1:1.9.2-2.fc23         fedora       248 k
+ python-devel             x86_64      2.7.10-8.fc23          fedora       397 k
+ python-macros            noarch      2.7.10-8.fc23          fedora        61 k
+ python-scikit-learn      x86_64      0.17-1.fc23            updates      3.9 M
+ python2-joblib           noarch      0.9.3-2.fc23           updates      266 k
+ scipy                    x86_64      0.14.1-1.fc22          fedora        10 M
+
+事务概要
+================================================================================
+安装  8 Packages
+
