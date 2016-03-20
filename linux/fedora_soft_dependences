@@ -523,4 +523,7 @@ dnf install libappindicator-gtk3-devel
 ================================================================================
 安装  7 Packages
 
+27. bash Anaconda2-2.5.0-Linux-x86_64.sh install at /home/xq/anaconda2 and
+Prepending PATH=/home/xq/anaconda2/bin to PATH in /home/xq/.bashrc
+A backup will be made to: /home/xq/.bashrc-anaconda2.bak
 
