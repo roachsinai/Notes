@@ -527,3 +527,23 @@ dnf install libappindicator-gtk3-devel
 Prepending PATH=/home/xq/anaconda2/bin to PATH in /home/xq/.bashrc
 A backup will be made to: /home/xq/.bashrc-anaconda2.bak
 
+28. sudo dnf install docker-engine
+Docker Repository                               2.7 kB/s | 6.0 kB     00:02    
+上次元数据过期检查在 0:00:00 前执行于 Sun Mar 20 19:06:23 2016。
+依赖关系解决。
+================================================================================
+ Package                    架构       版本                仓库            大小
+================================================================================
+安装:
+ audit-libs-python          x86_64     2.4.5-1.fc23        updates         96 k
+ docker-engine              x86_64     1.10.3-1.fc23       dockerrepo     9.7 M
+ docker-engine-selinux      noarch     1.10.3-1.fc23       dockerrepo      32 k
+ libselinux-python          x86_64     2.4-4.fc23          fedora         302 k
+ libsemanage-python         x86_64     2.4-4.fc23          fedora         109 k
+ policycoreutils-python     x86_64     2.4-18.fc23         updates        400 k
+ python-IPy                 noarch     0.81-13.fc23        fedora          42 k
+
+事务概要
+================================================================================
+安装  7 Packages
+
