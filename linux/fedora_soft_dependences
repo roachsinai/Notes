@@ -556,9 +556,15 @@ Name=Sublime
 Comment=Sublime Text Editor
 Exec=sublime
 Icon=/opt/sublime_text/Icon/256x256/sublime-text.png
- 
+
 Terminal=false
 Type=Application
 Categories=GNOME;Application;Development;
 StartupNotify=true
+
+29. install speedtest_cli(test speed of internet)
+wget https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py
+chmod a+rx speedtest_cli.py
+sudo mv speedtest_cli.py /usr/local/bin/speedtest-cli
+sudo chown root:root /usr/local/bin/speedtest-cli
 
