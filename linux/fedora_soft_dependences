@@ -535,3 +535,30 @@ git clone https://github.com/yyuu/pyenv-virtualenv.git ~/code/Git/soft_source/.p
 echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
 exec "$SHELL"
 
+28. install sublime text 3
+sudo tar -jxvf sublime_text_3_build_3103_x64.tar.bz2
+sudo mkdir /opt/sublime_text_3
+sudo mv ./sublime_text_3/* /opt/sublime_text_3
+
+sudo vim /usr/bin/sublime
+把以下代码复制进sublime这个文件：
+#!/bin/sh
+export SUBLIME_HOME="/opt/sublime_text_3"
+$SUBLIME_HOME/sublime_text $*
+
+sudo chmod 755 /usr/bin/sublime
+
+sudo vim /usr/share/applications/sublime.desktop
+复制以下代码进去：
+[Desktop Entry]
+Encoding=UTF-8
+Name=Sublime
+Comment=Sublime Text Editor
+Exec=sublime
+Icon=/opt/sublime_text/Icon/256x256/sublime-text.png
+ 
+Terminal=false
+Type=Application
+Categories=GNOME;Application;Development;
+StartupNotify=true
+
