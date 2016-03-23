@@ -528,12 +528,12 @@ git clone git://github.com/yyuu/pyenv.git ~/code/Git/soft_source/.pyenv
 echo 'export PYENV_ROOT="$HOME/code/Git/soft_source/.pyenv"' >> ~/.bashrc
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(pyenv init -)"' >> ~/.bashrc
-exec $SHELL -l
+exec $SHELL
 
 28. install pyenv-virtualenv
 git clone https://github.com/yyuu/pyenv-virtualenv.git ~/code/Git/soft_source/.pyenv/plugins/pyenv-virtualenv
 echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
-exec "$SHELL"
+exec $SHELL
 
 28. install sublime text 3
 sudo tar -jxvf sublime_text_3_build_3103_x64.tar.bz2
