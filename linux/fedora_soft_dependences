@@ -1,5 +1,6 @@
 3. sudo dnf install nautilus-open-terminal
 
+# 在依赖中安装了 python 和 python-pip
 4. sudo dnf install gnome-tweak-tool
 安装:
  gnome-shell-extension-user-theme   noarch   3.18.1-1.fc23      fedora     21 k
@@ -19,6 +20,7 @@
 
 7. 网页添加Gnome插件，需要设置firefox插件选项--总是激活；
 
+# 已经删除
 8. sudo dnf install cairo-dock
 安装:
  cairo-dock                     x86_64     3.4.1-2.fc23        fedora      17 k
@@ -352,11 +354,13 @@ sudo dnf install gcc-c++
 ==================================================================
 安装  2 Packages
 
-23.  pip install matplotlib
+# 已删除
+23. pip install matplotlib
 You are using pip version 7.1.0, however version 7.1.2 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 
-24.dnf install python-matplotlib
+# 已删除
+24. dnf install python-matplotlib
 上次元数据过期检查在 1 day, 18:49:26 前执行于 Fri Dec 11 22:40:45 2015。
 依赖关系解决。
 ================================================================================
@@ -411,6 +415,7 @@ You should consider upgrading via the 'pip install --upgrade pip' command.
 ================================================================================
 安装  39 Packages
 
+# 已删除
 25.dnf install python-scikit-learn
 上次元数据过期检查在 21:19:15 前执行于 Fri Jan 15 13:57:56 2016。
 依赖关系解决。
