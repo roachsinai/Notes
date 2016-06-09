@@ -573,7 +573,7 @@ chmod a+rx speedtest_cli.py
 sudo mv speedtest_cli.py /usr/local/bin/speedtest-cli
 sudo chown root:root /usr/local/bin/speedtest-cli
 
-30. dnf install R
+30. dnf install R 已删除
 上次元数据过期检查：0:05:49 前，执行于 Sun May 29 17:44:32 2016。
 依赖关系解决。
 ================================================================================
@@ -930,7 +930,8 @@ export PATH="/home/username/anaconda/bin:$PATH"
 
 uninstall anaconda : rm -rf ~/anaconda3
 
-33. sudo dnf install --nogpgcheck rstudio-server-rhel-0.99.902-x86_64.rpm 
+33. 已删除，并且删除了/etc/rstudio文件夹
+sudo dnf install --nogpgcheck rstudio-server-rhel-0.99.902-x86_64.rpm 
 [sudo] xq 的密码：
 上次元数据过期检查：0:47:01 前，执行于 Sun May 29 17:44:32 2016。
 依赖关系解决。
@@ -1075,4 +1076,6 @@ gulp-cli@1.2.1 /usr/lib/node_modules/gulp-cli
 ├── liftoff@2.2.1 (extend@2.0.1, rechoir@0.6.2, flagged-respawn@0.3.2, resolve@1.1.7, findup-sync@0.3.0)
 └── matchdep@1.0.1 (stack-trace@0.0.9, resolve@1.1.7, findup-sync@0.3.0, micromatch@2.3.8)
 
+36. 按照 lantern README.md 页面安装 go
+	编译lantern，跪~
 
