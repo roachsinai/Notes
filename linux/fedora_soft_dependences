@@ -573,3 +573,506 @@ chmod a+rx speedtest_cli.py
 sudo mv speedtest_cli.py /usr/local/bin/speedtest-cli
 sudo chown root:root /usr/local/bin/speedtest-cli
 
+30. dnf install R
+上次元数据过期检查：0:05:49 前，执行于 Sun May 29 17:44:32 2016。
+依赖关系解决。
+================================================================================
+ Package              架构   版本                                 仓库     大小
+================================================================================
+安装:
+ R                    x86_64 3.3.0-3.fc23                         updates  29 k
+ R-core               x86_64 3.3.0-3.fc23                         updates  51 M
+ R-core-devel         x86_64 3.3.0-3.fc23                         updates 104 k
+ R-devel              x86_64 3.3.0-3.fc23                         updates  28 k
+ R-java               x86_64 3.3.0-3.fc23                         updates  30 k
+ R-java-devel         x86_64 3.3.0-3.fc23                         updates  29 k
+ bzip2-devel          x86_64 1.0.6-19.fc23                        updates 223 k
+ dwz                  x86_64 0.12-1.fc23                          fedora  106 k
+ gcc-gfortran         x86_64 5.3.1-6.fc23                         updates 9.2 M
+ ghc-srpm-macros      noarch 1.4.2-2.fc23                         fedora  8.2 k
+ gnat-srpm-macros     noarch 2-1.fc23                             fedora  8.4 k
+ java-1.8.0-openjdk   x86_64 1:1.8.0.91-6.b14.fc23                updates 225 k
+ java-1.8.0-openjdk-devel
+                      x86_64 1:1.8.0.91-6.b14.fc23                updates 9.7 M
+ libRmath             x86_64 3.3.0-3.fc23                         updates 131 k
+ libRmath-devel       x86_64 3.3.0-3.fc23                         updates  34 k
+ libXaw               x86_64 1.0.13-2.fc23                        fedora  191 k
+ libgfortran          x86_64 5.3.1-6.fc23                         updates 297 k
+ libpaper             x86_64 1.1.24-11.fc23                       fedora   41 k
+ libquadmath          x86_64 5.3.1-6.fc23                         updates 183 k
+ libquadmath-devel    x86_64 5.3.1-6.fc23                         updates  41 k
+ ocaml-srpm-macros    noarch 2-3.fc23                             fedora  8.1 k
+ pcre-devel           x86_64 8.38-7.fc23                          updates 542 k
+ perl-Filter          x86_64 2:1.55-1.fc23                        fedora   79 k
+ perl-Tk              x86_64 804.033-3.fc23                       fedora  2.1 M
+ perl-Unicode-EastAsianWidth
+                      noarch 1.33-6.fc23                          fedora   15 k
+ perl-XML-Parser      x86_64 2.44-3.fc23                          fedora  224 k
+ perl-XML-XPath       noarch 1.13-28.fc23                         fedora   77 k
+ perl-encoding        x86_64 3:2.17-4.fc23                        updates  62 k
+ perl-libintl         x86_64 1.20-18.fc23                         fedora  801 k
+ perl-open            noarch 1.10-351.fc23                        updates  62 k
+ perl-srpm-macros     noarch 1-17.fc23                            fedora  9.7 k
+ python-srpm-macros   noarch 3-7.fc23                             updates 8.1 k
+ qpdf                 x86_64 5.1.3-2.fc23                         fedora   51 k
+ redhat-rpm-config    noarch 36-1.fc23.1                          updates  59 k
+ tcl-devel            x86_64 1:8.6.4-1.fc23                       fedora  186 k
+ texinfo              x86_64 6.0-2.fc23                           updates 1.1 M
+ texinfo-tex          x86_64 6.0-2.fc23                           updates 146 k
+ texlive-ae           noarch 4:svn15878.1.4-19.fc23               updates 105 k
+ texlive-algorithms   noarch 4:svn15878.0.1-19.fc23               updates  30 k
+ texlive-amscls       noarch 4:svn30738.0-19.fc23                 updates  63 k
+ texlive-amsfonts     noarch 4:svn29208.3.04-19.fc23              updates 3.6 M
+ texlive-amsmath      noarch 4:svn30645.2.14-19.fc23              updates  59 k
+ texlive-anysize      noarch 4:svn15878.0-19.fc23                 updates  28 k
+ texlive-attachfile   noarch 4:svn21866.v1.5b-19.fc23             updates  31 k
+ texlive-auto-pst-pdf noarch 4:svn23723.0.6-19.fc23               updates  29 k
+ texlive-avantgar     noarch 4:svn31835.0-19.fc23                 updates 302 k
+ texlive-babel        noarch 4:svn33283.3.9k-19.fc23              updates  59 k
+ texlive-babel-english
+                      noarch 4:svn30264.0-19.fc23                 updates  29 k
+ texlive-babelbib     noarch 4:svn25245.1.31-19.fc23              updates  59 k
+ texlive-base         noarch 4:2014-19.20140525_r34255.fc23       updates 1.4 M
+ texlive-beamer       noarch 4:svn32491.3.33-19.fc23              updates 254 k
+ texlive-bera         noarch 4:svn20031.0-19.fc23                 updates 357 k
+ texlive-beton        noarch 4:svn15878.0-19.fc23                 updates  28 k
+ texlive-bibtex       noarch 4:svn29764.0.99d-19.fc23             updates  43 k
+ texlive-bibtex-bin   x86_64 4:svn30088.0-19.20140525_r34255.fc23 updates  78 k
+ texlive-bookman      noarch 4:svn31835.0-19.fc23                 updates 344 k
+ texlive-booktabs     noarch 4:svn15878.1.61803-19.fc23           updates  29 k
+ texlive-breakurl     noarch 4:svn29901.1.40-19.fc23              updates  30 k
+ texlive-caption      noarch 4:svn30449.2013_05_12-19.fc23        updates  62 k
+ texlive-carlisle     noarch 4:svn18258.0-19.fc23                 updates  39 k
+ texlive-charter      noarch 4:svn15878.0-19.fc23                 updates 211 k
+ texlive-chngcntr     noarch 4:svn17157.1.0a-19.fc23              updates  28 k
+ texlive-cite         noarch 4:svn19955.5.3-19.fc23               updates  51 k
+ texlive-cm           noarch 4:svn32865.0-19.fc23                 updates 301 k
+ texlive-cm-super     noarch 4:svn15878.0-19.fc23                 updates  62 M
+ texlive-cmap         noarch 4:svn31477.1.0h-19.fc23              updates  34 k
+ texlive-cmextra      noarch 4:svn32831.0-19.fc23                 updates  55 k
+ texlive-collection-basic
+                      noarch 4:svn33040.0-19.20140525_r34255.fc23 updates  26 k
+ texlive-collection-fontsrecommended
+                      noarch 4:svn32620.0-19.20140525_r34255.fc23 updates  26 k
+ texlive-collection-latex
+                      noarch 4:svn33055.0-19.20140525_r34255.fc23 updates  26 k
+ texlive-collection-latexrecommended
+                      noarch 4:svn33055.0-19.20140525_r34255.fc23 updates  26 k
+ texlive-colortbl     noarch 4:svn29803.v1.0a-19.fc23             updates  30 k
+ texlive-courier      noarch 4:svn31835.0-19.fc23                 updates 554 k
+ texlive-crop         noarch 4:svn15878.1.5-19.fc23               updates  31 k
+ texlive-csquotes     noarch 4:svn24393.5.1d-19.fc23              updates  46 k
+ texlive-ctable       noarch 4:svn33011.1.28-19.fc23              updates  30 k
+ texlive-currfile     noarch 4:svn29012.0.7b-19.fc23              updates  31 k
+ texlive-dvipdfmx     noarch 4:svn32380.0-19.fc23                 updates  66 k
+ texlive-dvipdfmx-bin x86_64 4:svn30845.0-19.20140525_r34255.fc23 updates 312 k
+ texlive-dvipdfmx-def noarch 4:svn33409.3.6-19.fc23               updates  29 k
+ texlive-dvips        noarch 4:svn33394.0-19.fc23                 updates 273 k
+ texlive-dvips-bin    x86_64 4:svn30088.0-19.20140525_r34255.fc23 updates 144 k
+ texlive-ec           noarch 4:svn25033.1.0-19.fc23               updates 486 k
+ texlive-enctex       noarch 4:svn28602.0-19.fc23                 updates  57 k
+ texlive-enumitem     noarch 4:svn24146.3.5.2-19.fc23             updates  38 k
+ texlive-environ      noarch 4:svn29600.0.3-19.fc23               updates  28 k
+ texlive-epsf         noarch 4:svn21461.2.7.4-19.fc23             updates  34 k
+ texlive-eso-pic      noarch 4:svn31875.2.0d-19.fc23              updates  30 k
+ texlive-etex         noarch 4:svn31600.2.1-19.fc23               updates  43 k
+ texlive-etex-pkg     noarch 4:svn15878.2.0-19.fc23               updates  31 k
+ texlive-etoolbox     noarch 4:svn20922.2.1-19.fc23               updates  35 k
+ texlive-euler        noarch 4:svn17261.2.5-19.fc23               updates  30 k
+ texlive-euro         noarch 4:svn22191.1.1-19.fc23               updates  29 k
+ texlive-eurosym      noarch 4:svn17265.1.4_subrfix-19.fc23       updates 167 k
+ texlive-extsizes     noarch 4:svn17263.1.4a-19.fc23              updates  40 k
+ texlive-fancybox     noarch 4:svn18304.1.4-19.fc23               updates  34 k
+ texlive-fancyhdr     noarch 4:svn15878.3.1-19.fc23               updates  35 k
+ texlive-fancyref     noarch 4:svn15878.0.9c-19.fc23              updates  30 k
+ texlive-fancyvrb     noarch 4:svn18492.2.8-19.fc23               updates  40 k
+ texlive-filecontents noarch 4:svn24250.1.3-19.fc23               updates  28 k
+ texlive-filehook     noarch 4:svn24280.0.5d-19.fc23              updates  31 k
+ texlive-fix2col      noarch 4:svn17133.0-19.fc23                 updates  29 k
+ texlive-float        noarch 4:svn15878.1.3d-19.fc23              updates  29 k
+ texlive-fontspec     noarch 4:svn32416.v2.3c-19.fc23             updates  47 k
+ texlive-footmisc     noarch 4:svn23330.5.5b-19.fc23              updates  33 k
+ texlive-fp           noarch 4:svn15878.0-19.fc23                 updates  49 k
+ texlive-fpl          noarch 4:svn15878.1.002-19.fc23             updates 385 k
+ texlive-geometry     noarch 4:svn19716.5.6-19.fc23               updates  36 k
+ texlive-glyphlist    noarch 4:svn28576.0-19.fc23                 updates  52 k
+ texlive-graphics     noarch 4:svn32655.1.0o-19.fc23              updates  43 k
+ texlive-gsftopk      noarch 4:svn29764.1.19.2-19.fc23            updates  33 k
+ texlive-gsftopk-bin  x86_64 4:svn30088.0-19.20140525_r34255.fc23 updates  40 k
+ texlive-helvetic     noarch 4:svn31835.0-19.fc23                 updates 627 k
+ texlive-hyperref     noarch 4:svn28213.6.83m-19.fc23             updates 149 k
+ texlive-hyph-utf8    noarch 4:svn30757.0-19.fc23                 updates 2.3 M
+ texlive-hyphen-base  noarch 4:svn31131.0-19.fc23                 updates  49 k
+ texlive-ifetex       noarch 4:svn24853.1.2-19.fc23               updates  28 k
+ texlive-ifluatex     noarch 4:svn26725.1.3-19.fc23               updates  29 k
+ texlive-ifplatform   noarch 4:svn21156.0.3a-19.fc23              updates  29 k
+ texlive-iftex        noarch 4:svn29654.0.2-19.fc23               updates  28 k
+ texlive-ifxetex      noarch 4:svn19685.0.5-19.fc23               updates  28 k
+ texlive-inconsolata  noarch 4:svn32983.1.04-19.fc23              updates 194 k
+ texlive-index        noarch 4:svn24099.4.1beta-19.fc23           updates  38 k
+ texlive-jknapltx     noarch 4:svn19440.0-19.fc23                 updates  38 k
+ texlive-kastrup      noarch 4:svn15878.0-19.fc23                 updates  27 k
+ texlive-knuth-lib    noarch 4:svn33039.0-19.fc23                 updates  37 k
+ texlive-knuth-local  noarch 4:svn33147.0-19.fc23                 updates  53 k
+ texlive-koma-script  noarch 4:svn32489.3.12-19.fc23              updates 5.8 M
+ texlive-kpathsea     noarch 4:svn32266.0-19.fc23                 updates 150 k
+ texlive-kpathsea-bin x86_64 4:svn30088.0-19.20140525_r34255.fc23 updates  50 k
+ texlive-kpathsea-lib x86_64 4:2014-19.20140525_r34255.fc23       updates  98 k
+ texlive-l3experimental
+                      noarch 4:svn32537.SVN_4634-19.fc23          updates  76 k
+ texlive-l3kernel     noarch 4:svn32599.SVN_4646-19.fc23          updates 127 k
+ texlive-l3packages   noarch 4:svn32537.SVN_4634-19.fc23          updates  45 k
+ texlive-latex        noarch 4:svn32901.0-19.fc23                 updates 208 k
+ texlive-latex-bin    noarch 4:svn29764.0-19.fc23                 updates  29 k
+ texlive-latex-bin-bin
+                      noarch 4:svn14050.0-19.20140525_r34255.fc23 updates  26 k
+ texlive-latex-fonts  noarch 4:svn28888.0-19.fc23                 updates  52 k
+ texlive-latexconfig  noarch 4:svn28991.0-19.fc23                 updates  35 k
+ texlive-listings     noarch 4:svn33095.1.5c-19.fc23              updates 153 k
+ texlive-lm           noarch 4:svn28119.2.004-19.fc23             updates  13 M
+ texlive-lm-math      noarch 4:svn29044.1.958-19.fc23             updates 435 k
+ texlive-ltxmisc      noarch 4:svn21927.0-19.fc23                 updates  44 k
+ texlive-lua-alt-getopt
+                      noarch 4:svn29349.0.7.0-19.fc23             updates  28 k
+ texlive-lualatex-math
+                      noarch 4:svn31389.1.3-19.fc23               updates  30 k
+ texlive-luaotfload   noarch 4:svn32887.2.4_3-19.fc23             updates 276 k
+ texlive-luaotfload-bin
+                      noarch 4:svn30313.0-19.20140525_r34255.fc23 updates  26 k
+ texlive-luatex       noarch 4:svn33312.0.70.1-19.fc23            updates  47 k
+ texlive-luatex-bin   x86_64 4:svn31084.0-19.20140525_r34255.fc23 updates 1.7 M
+ texlive-luatexbase   noarch 4:svn30562.0.6-19.fc23               updates  39 k
+ texlive-makeindex    noarch 4:svn33054.2.12-19.fc23              updates  42 k
+ texlive-makeindex-bin
+                      x86_64 4:svn30088.0-19.20140525_r34255.fc23 updates  50 k
+ texlive-marginnote   noarch 4:svn25880.v1.1i-19.fc23             updates  30 k
+ texlive-marvosym     noarch 4:svn29349.2.2a-19.fc23              updates 161 k
+ texlive-mathpazo     noarch 4:svn15878.1.003-19.fc23             updates  94 k
+ texlive-mdwtools     noarch 4:svn15878.1.05.4-19.fc23            updates  48 k
+ texlive-memoir       noarch 4:svn31044.3.7b-19.fc23              updates 108 k
+ texlive-metafont     noarch 4:svn29764.2.718281-19.fc23          updates  73 k
+ texlive-metafont-bin x86_64 4:svn30088.0-19.20140525_r34255.fc23 updates 211 k
+ texlive-metalogo     noarch 4:svn18611.0.12-19.fc23              updates  29 k
+ texlive-mflogo       noarch 4:svn32865.2.0-19.fc23               updates  53 k
+ texlive-mfnfss       noarch 4:svn19410.0-19.fc23                 updates  29 k
+ texlive-mfware       noarch 4:svn32865.0-19.fc23                 updates  40 k
+ texlive-mfware-bin   x86_64 4:svn30088.0-19.20140525_r34255.fc23 updates 103 k
+ texlive-mh           noarch 4:svn29420.0-19.fc23                 updates  71 k
+ texlive-microtype    noarch 4:svn30755.2.5a-19.fc23              updates  78 k
+ texlive-mparhack     noarch 4:svn15878.1.4-19.fc23               updates  29 k
+ texlive-mptopdf      noarch 4:svn32580.0-19.fc23                 updates  67 k
+ texlive-mptopdf-bin  noarch 4:svn18674.0-19.20140525_r34255.fc23 updates  26 k
+ texlive-ms           noarch 4:svn29849.0-19.fc23                 updates  33 k
+ texlive-multido      noarch 4:svn18302.1.42-19.fc23              updates  30 k
+ texlive-natbib       noarch 4:svn20668.8.31b-19.fc23             updates  44 k
+ texlive-ncntrsbk     noarch 4:svn31835.0-19.fc23                 updates 349 k
+ texlive-ntgclass     noarch 4:svn15878.0-19.fc23                 updates  45 k
+ texlive-oberdiek     noarch 4:svn33322.0-19.fc23                 updates 321 k
+ texlive-palatino     noarch 4:svn31835.0-19.fc23                 updates 397 k
+ texlive-paralist     noarch 4:svn30992.2.4-19.fc23               updates  30 k
+ texlive-parallel     noarch 4:svn15878.0-19.fc23                 updates  30 k
+ texlive-parskip      noarch 4:svn19963.2.0-19.fc23               updates  28 k
+ texlive-pdfpages     noarch 4:svn31518.0.4v-19.fc23              updates  41 k
+ texlive-pdftex       noarch 4:svn33394.1.40.11-19.fc23           updates 182 k
+ texlive-pdftex-bin   x86_64 4:svn30845.0-19.20140525_r34255.fc23 updates 381 k
+ texlive-pdftex-def   noarch 4:svn22653.0.06d-19.fc23             updates  40 k
+ texlive-pgf          noarch 4:svn33057.3.0.0-19.fc23             updates 774 k
+ texlive-plain        noarch 4:svn26647.0-19.fc23                 updates  73 k
+ texlive-powerdot     noarch 4:svn32549.1.5-19.fc23               updates  57 k
+ texlive-psfrag       noarch 4:svn15878.3.04-19.fc23              updates  31 k
+ texlive-pslatex      noarch 4:svn16416.0-19.fc23                 updates  34 k
+ texlive-psnfss       noarch 4:svn23394.9.2a-19.fc23              updates  55 k
+ texlive-pspicture    noarch 4:svn15878.0-19.fc23                 updates  28 k
+ texlive-pst-3d       noarch 4:svn17257.1.10-19.fc23              updates  30 k
+ texlive-pst-blur     noarch 4:svn15878.2.0-19.fc23               updates  29 k
+ texlive-pst-coil     noarch 4:svn24020.1.06-19.fc23              updates  31 k
+ texlive-pst-eps      noarch 4:svn15878.1.0-19.fc23               updates  30 k
+ texlive-pst-fill     noarch 4:svn15878.1.01-19.fc23              updates  30 k
+ texlive-pst-grad     noarch 4:svn15878.1.06-19.fc23              updates  31 k
+ texlive-pst-math     noarch 4:svn20176.0.61-19.fc23              updates  32 k
+ texlive-pst-node     noarch 4:svn33303.1.33-19.fc23              updates  53 k
+ texlive-pst-ovl      noarch 4:svn32514.0.04-19.fc23              updates  29 k
+ texlive-pst-pdf      noarch 4:svn31660.1.1v-19.fc23              updates  34 k
+ texlive-pst-pdf-bin  noarch 4:svn7838.0-19.20140525_r34255.fc23  updates  26 k
+ texlive-pst-plot     noarch 4:svn33196.1.61-19.fc23              updates  49 k
+ texlive-pst-slpe     noarch 4:svn24391.1.31-19.fc23              updates  30 k
+ texlive-pst-text     noarch 4:svn15878.1.00-19.fc23              updates  31 k
+ texlive-pst-tree     noarch 4:svn24142.1.12-19.fc23              updates  34 k
+ texlive-pstricks     noarch 4:svn33328.2.53a-19.fc23             updates 109 k
+ texlive-pstricks-add noarch 4:svn32760.3.65-19.fc23              updates  51 k
+ texlive-pxfonts      noarch 4:svn15878.0-19.fc23                 updates 508 k
+ texlive-qstest       noarch 4:svn15878.0-19.fc23                 updates  32 k
+ texlive-rcs          noarch 4:svn15878.0-19.fc23                 updates  40 k
+ texlive-rotating     noarch 4:svn16832.2.16b-19.fc23             updates  29 k
+ texlive-rsfs         noarch 4:svn15878.0-19.fc23                 updates  85 k
+ texlive-sansmath     noarch 4:svn17997.1.1-19.fc23               updates  30 k
+ texlive-sansmathaccent
+                      noarch 4:svn30187.0-19.fc23                 updates  41 k
+ texlive-sauerj       noarch 4:svn15878.0-19.fc23                 updates  32 k
+ texlive-section      noarch 4:svn20180.0-19.fc23                 updates  36 k
+ texlive-seminar      noarch 4:svn32762.1.61-19.fc23              updates  60 k
+ texlive-sepnum       noarch 4:svn20186.2.0-19.fc23               updates  29 k
+ texlive-setspace     noarch 4:svn24881.6.7a-19.fc23              updates  34 k
+ texlive-showexpl     noarch 4:svn32737.v0.3l-19.fc23             updates  31 k
+ texlive-soul         noarch 4:svn15878.2.4-19.fc23               updates  33 k
+ texlive-subfig       noarch 4:svn15878.1.3-19.fc23               updates  34 k
+ texlive-symbol       noarch 4:svn31835.0-19.fc23                 updates  65 k
+ texlive-tetex        noarch 4:svn33394.3.0-19.fc23               updates 102 k
+ texlive-tetex-bin    noarch 4:svn29741.0-19.20140525_r34255.fc23 updates  27 k
+ texlive-tex          noarch 4:svn29764.3.1415926-19.fc23         updates  33 k
+ texlive-tex-bin      x86_64 4:svn30088.0-19.20140525_r34255.fc23 updates 187 k
+ texlive-tex-gyre     noarch 4:svn18651.2.004-19.fc23             updates 7.0 M
+ texlive-tex-gyre-math
+                      noarch 4:svn29045.0-19.fc23                 updates 591 k
+ texlive-texconfig    noarch 4:svn29764.0-19.fc23                 updates  42 k
+ texlive-texconfig-bin
+                      noarch 4:svn29741.0-19.20140525_r34255.fc23 updates  26 k
+ texlive-texlive-common-doc
+                      noarch 4:svn30524.0-19.fc23                 updates 193 k
+ texlive-texlive-en-doc
+                      noarch 4:svn32016.0-19.fc23                 updates 1.1 M
+ texlive-texlive-msg-translations
+                      noarch 4:svn33412.0-19.fc23                 updates 146 k
+ texlive-texlive-scripts
+                      noarch 4:svn33431.0-19.fc23                 updates  43 k
+ texlive-texlive-scripts-bin
+                      noarch 4:svn29741.0-19.20140525_r34255.fc23 updates  26 k
+ texlive-texlive.infra
+                      noarch 4:svn32920.0-19.fc23                 updates 152 k
+ texlive-texlive.infra-bin
+                      x86_64 4:svn29741.0-19.20140525_r34255.fc23 updates  26 k
+ texlive-textcase     noarch 4:svn15878.0-19.fc23                 updates  28 k
+ texlive-thumbpdf     noarch 4:svn29725.3.15-19.fc23              updates  48 k
+ texlive-thumbpdf-bin noarch 4:svn6898.0-19.20140525_r34255.fc23  updates  26 k
+ texlive-times        noarch 4:svn31835.0-19.fc23                 updates 400 k
+ texlive-tipa         noarch 4:svn29349.1.3-19.fc23               updates 2.8 M
+ texlive-tools        noarch 4:svn33063.0-19.fc23                 updates  72 k
+ texlive-trimspaces   noarch 4:svn15878.1.1-19.fc23               updates  27 k
+ texlive-txfonts      noarch 4:svn15878.0-19.fc23                 updates 780 k
+ texlive-type1cm      noarch 4:svn21820.0-19.fc23                 updates  29 k
+ texlive-typehtml     noarch 4:svn17134.0-19.fc23                 updates  33 k
+ texlive-ucs          noarch 4:svn30472.2.2-19.fc23               updates 371 k
+ texlive-underscore   noarch 4:svn18261.0-19.fc23                 updates  31 k
+ texlive-unicode-math noarch 4:svn30504.0.7d-19.fc23              updates  71 k
+ texlive-url          noarch 4:svn32528.3.4-19.fc23               updates  32 k
+ texlive-utopia       noarch 4:svn15878.0-19.fc23                 updates 243 k
+ texlive-varwidth     noarch 4:svn24104.0.92-19.fc23              updates  31 k
+ texlive-wasy         noarch 4:svn15878.0-19.fc23                 updates 266 k
+ texlive-wasysym      noarch 4:svn15878.2.0-19.fc23               updates  30 k
+ texlive-xcolor       noarch 4:svn15878.2.11-19.fc23              updates  45 k
+ texlive-xdvi         noarch 4:svn30339.22.86-19.fc23             updates  70 k
+ texlive-xdvi-bin     x86_64 4:svn30088.0-19.20140525_r34255.fc23 updates 305 k
+ texlive-xkeyval      noarch 4:svn27995.2.6a-19.fc23              updates  37 k
+ texlive-xunicode     noarch 4:svn30466.0.981-19.fc23             updates  54 k
+ texlive-zapfchan     noarch 4:svn31835.0-19.fc23                 updates 113 k
+ texlive-zapfding     noarch 4:svn31835.0-19.fc23                 updates  75 k
+ tk                   x86_64 1:8.6.4-2.fc23                       fedora  1.6 M
+ tk-devel             x86_64 1:8.6.4-2.fc23                       fedora  495 k
+ tre                  x86_64 0.8.0-15.20140228gitc2f5d13.fc23     updates  66 k
+ tre-devel            x86_64 0.8.0-15.20140228gitc2f5d13.fc23     updates  16 k
+ ttmkfdir             x86_64 3.0.9-46.fc23                        fedora   54 k
+ xorg-x11-fonts-Type1 noarch 7.5-15.fc23                          fedora  522 k
+ xz-devel             x86_64 5.2.1-3.fc23                         fedora   60 k
+ zziplib              x86_64 0.13.62-6.fc23                       fedora   85 k
+
+事务概要
+================================================================================
+安装  271 软件包
+
+总下载：201 M
+安装大小：398 M
+
+31. dnf install octave
+上次元数据过期检查：0:12:40 前，执行于 Sun May 29 17:44:32 2016。
+依赖关系解决。
+================================================================================
+ Package                     架构     版本                      仓库       大小
+================================================================================
+安装:
+ GraphicsMagick              x86_64   1.3.23-1.fc23             updates   1.4 M
+ GraphicsMagick-c++          x86_64   1.3.23-1.fc23             updates   110 k
+ arpack                      x86_64   3.3.0-1.b0f7a60git.fc23   updates   106 k
+ atlas                       x86_64   3.10.2-6.fc23             fedora    5.7 M
+ blas                        x86_64   3.5.0-12.fc23             fedora    406 k
+ epstool                     x86_64   3.08-8.fc23               fedora    135 k
+ fftw-libs-double            x86_64   3.3.4-6.fc23              fedora    805 k
+ fftw-libs-single            x86_64   3.3.4-6.fc23              fedora    832 k
+ fltk                        x86_64   1.3.3-5.fc23              fedora    560 k
+ gl2ps                       x86_64   1.3.9-1.fc23              updates    60 k
+ glpk                        x86_64   4.55-4.fc23               fedora    413 k
+ gnuplot                     x86_64   5.0.1-2.fc23              fedora    783 k
+ gnuplot-common              x86_64   5.0.1-2.fc23              fedora    613 k
+ hdf5                        x86_64   1.8.15-10.patch1.fc23     updates   1.7 M
+ jack-audio-connection-kit   x86_64   1.9.10-3.fc23             fedora    545 k
+ lapack                      x86_64   3.5.0-12.fc23             fedora    5.8 M
+ libffado                    x86_64   2.2.1-5.fc23              fedora    691 k
+ libwmf-lite                 x86_64   0.2.8.4-46.fc23           fedora     72 k
+ libxml++                    x86_64   2.40.1-1.fc23             updates    90 k
+ mesa-libOSMesa              x86_64   11.1.0-2.20151218.fc23    updates   1.3 M
+ octave                      x86_64   6:4.0.1-6.fc23            updates    11 M
+ portaudio                   x86_64   19-22.fc23                fedora     94 k
+ qhull                       x86_64   2003.1-26.fc23            fedora    358 k
+ qrupdate                    x86_64   1.1.2-7.fc23              fedora     87 k
+ qscintilla                  x86_64   2.9.1-3.fc23              updates   1.0 M
+ suitesparse                 x86_64   4.4.5-2.fc23              fedora    1.0 M
+ tbb                         x86_64   4.3-3.20141204.fc23       fedora    140 k
+
+事务概要
+================================================================================
+安装  27 软件包
+
+总下载：36 M
+安装大小：123 M
+
+32. install anaconda
+bash ~/Downloads/Anaconda3-4.0.0-Linux-x86_64.sh
+export PATH="/home/username/anaconda/bin:$PATH"
+
+uninstall anaconda : rm -rf ~/anaconda3
+
+33. sudo dnf install --nogpgcheck rstudio-server-rhel-0.99.902-x86_64.rpm 
+[sudo] xq 的密码：
+上次元数据过期检查：0:47:01 前，执行于 Sun May 29 17:44:32 2016。
+依赖关系解决。
+================================================================================
+ Package              架构         版本                仓库                大小
+================================================================================
+安装:
+ rstudio-server       x86_64       0.99.902-1          @commandline        37 M
+
+事务概要
+================================================================================
+安装  1 软件包
+
+总计：37 M
+安装大小：280 M
+
+RStudio Server: Configuring the Server
+
+For example: change default Network Port and Address
+https://support.rstudio.com/hc/en-us/articles/200552316-Configuring-the-Server
+
+34. dnf install npm 编译lantern依赖
+上次元数据过期检查：1:11:50 前，执行于 Thu Jun  9 07:15:11 2016。
+依赖关系解决。
+======================================================================================================================================================
+ Package                                        架构                    版本                                           仓库                      大小
+======================================================================================================================================================
+安装:
+ compat-libuv010-devel                          x86_64                  1:0.10.34-4.fc23                               updates                   41 k
+ gyp                                            noarch                  0.1-0.18.0bb6747git.fc23                       fedora                   508 k
+ http-parser-devel                              x86_64                  2.0-9.20121128gitcd01361.fc23                  fedora                    14 k
+ keyutils-libs-devel                            x86_64                  1.5.9-7.fc23                                   fedora                    45 k
+ krb5-devel                                     x86_64                  1.14.1-6.fc23                                  updates                  652 k
+ libcom_err-devel                               x86_64                  1.42.13-3.fc23                                 fedora                    35 k
+ libselinux-devel                               x86_64                  2.4-4.fc23                                     fedora                   182 k
+ libsepol-devel                                 x86_64                  2.4-1.fc23                                     fedora                    77 k
+ libuv                                          x86_64                  1:1.4.0-2.fc23                                 fedora                    75 k
+ libuv-devel                                    x86_64                  1:1.4.0-2.fc23                                 fedora                    36 k
+ libverto-devel                                 x86_64                  0.2.6-5.fc23                                   fedora                    16 k
+ node-gyp                                       noarch                  0.10.6-5.fc23                                  fedora                    30 k
+ nodejs-abbrev                                  noarch                  1.0.4-9.fc23                                   fedora                    12 k
+ nodejs-ansi                                    noarch                  0.2.1-3.fc23                                   fedora                    17 k
+ nodejs-archy                                   noarch                  0.0.2-11.fc23                                  fedora                    11 k
+ nodejs-asn1                                    noarch                  0.1.11-6.fc23                                  fedora                    15 k
+ nodejs-assert-plus                             noarch                  0.1.4-3.fc23                                   fedora                    12 k
+ nodejs-async                                   noarch                  0.2.10-3.fc23                                  fedora                    25 k
+ nodejs-aws-sign                                noarch                  0.3.0-4.fc23                                   fedora                    10 k
+ nodejs-block-stream                            noarch                  0.0.7-3.fc23                                   fedora                    13 k
+ nodejs-boom                                    noarch                  0.4.2-5.fc23                                   fedora                    41 k
+ nodejs-child-process-close                     noarch                  0.1.1-5.fc23                                   fedora                    11 k
+ nodejs-chmodr                                  noarch                  0.1.0-7.fc23                                   fedora                    10 k
+ nodejs-chownr                                  noarch                  0.0.1-12.fc23                                  fedora                    11 k
+ nodejs-cmd-shim                                noarch                  1.1.0-6.fc23                                   fedora                    12 k
+ nodejs-combined-stream                         noarch                  0.0.4-6.fc23                                   fedora                    12 k
+ nodejs-config-chain                            noarch                  1.1.7-4.fc23                                   fedora                    14 k
+ nodejs-cookie-jar                              noarch                  1:0.3.0-4.fc23                                 fedora                    11 k
+ nodejs-cryptiles                               noarch                  0.2.2-3.fc23                                   fedora                    11 k
+ nodejs-ctype                                   noarch                  0.5.3-6.fc23                                   fedora                    35 k
+ nodejs-delayed-stream                          noarch                  0.0.5-8.fc23                                   fedora                    12 k
+ nodejs-devel                                   x86_64                  0.10.42-4.fc23                                 updates                  3.0 M
+ nodejs-editor                                  noarch                  0.0.4-5.fc23                                   fedora                    11 k
+ nodejs-forever-agent                           noarch                  0.5.0-4.fc23                                   fedora                    10 k
+ nodejs-form-data                               noarch                  0.1.1-3.fc23                                   fedora                    15 k
+ nodejs-fstream                                 noarch                  0.1.24-3.fc23                                  fedora                    29 k
+ nodejs-fstream-ignore                          noarch                  0.0.7-4.fc23                                   fedora                    13 k
+ nodejs-fstream-npm                             noarch                  0.1.5-4.fc23                                   fedora                    16 k
+ nodejs-github-url-from-git                     noarch                  1.1.1-5.fc23                                   fedora                    10 k
+ nodejs-glob                                    noarch                  3.2.6-3.fc23                                   fedora                    20 k
+ nodejs-graceful-fs                             noarch                  2.0.0-5.fc23                                   fedora                    15 k
+ nodejs-hawk                                    noarch                  1.0.0-3.fc23                                   fedora                   109 k
+ nodejs-hoek                                    noarch                  0.9.1-4.fc23                                   fedora                    55 k
+ nodejs-http-signature                          noarch                  0.10.0-6.fc23                                  fedora                    21 k
+ nodejs-inherits                                noarch                  2.0.1-6.fc23                                   fedora                    13 k
+ nodejs-ini                                     noarch                  1.1.0-6.fc23                                   fedora                    13 k
+ nodejs-init-package-json                       noarch                  0.0.10-4.fc23                                  fedora                    14 k
+ nodejs-json-stringify-safe                     noarch                  5.0.0-4.fc23                                   fedora                    11 k
+ nodejs-lockfile                                noarch                  0.4.2-3.fc23                                   fedora                    16 k
+ nodejs-lru-cache                               noarch                  2.3.0-6.fc23                                   fedora                    14 k
+ nodejs-mime                                    noarch                  1.2.11-3.fc23                                  fedora                    26 k
+ nodejs-minimatch                               noarch                  0.2.12-5.fc23                                  fedora                    22 k
+ nodejs-mkdirp                                  noarch                  0.3.5-6.fc23                                   fedora                    12 k
+ nodejs-mute-stream                             noarch                  0.0.4-3.fc23                                   fedora                    12 k
+ nodejs-node-uuid                               noarch                  1.4.1-3.fc23                                   fedora                    14 k
+ nodejs-nopt                                    noarch                  2.1.2-3.fc23                                   fedora                    20 k
+ nodejs-normalize-package-data                  noarch                  0.2.1-3.fc23                                   fedora                    17 k
+ nodejs-npm-registry-client                     noarch                  0.2.28-4.fc23                                  fedora                    25 k
+ nodejs-npm-user-validate                       noarch                  0.0.3-4.fc23                                   fedora                    10 k
+ nodejs-npmconf                                 noarch                  0.1.3-3.fc23                                   fedora                    22 k
+ nodejs-npmlog                                  noarch                  0.0.4-4.fc23                                   fedora                    14 k
+ nodejs-oauth-sign                              noarch                  0.3.0-4.fc23                                   fedora                   9.2 k
+ nodejs-once                                    noarch                  1.1.1-8.fc23                                   fedora                    11 k
+ nodejs-opener                                  noarch                  1.3.0-10.fc23                                  fedora                    11 k
+ nodejs-osenv                                   noarch                  0.0.3-8.fc23                                   fedora                    11 k
+ nodejs-packaging                               noarch                  7-4.fc23                                       fedora                    15 k
+ nodejs-promzard                                noarch                  0.2.0-9.fc23                                   fedora                    16 k
+ nodejs-proto-list                              noarch                  1.2.2-8.fc23                                   fedora                    11 k
+ nodejs-qs                                      noarch                  0.6.6-4.fc23                                   fedora                    13 k
+ nodejs-read                                    noarch                  1.0.5-3.fc23                                   fedora                    13 k
+ nodejs-read-installed                          noarch                  0.2.4-4.fc23                                   fedora                    14 k
+ nodejs-read-package-json                       noarch                  1.1.3-3.fc23                                   fedora                    16 k
+ nodejs-request                                 noarch                  2.25.0-3.fc23                                  fedora                    31 k
+ nodejs-retry                                   noarch                  0.6.0-8.fc23                                   fedora                    15 k
+ nodejs-rimraf                                  noarch                  2.2.2-3.fc23                                   fedora                    12 k
+ nodejs-semver                                  noarch                  2.1.0-4.fc23                                   fedora                    20 k
+ nodejs-sha                                     noarch                  1.2.1-3.fc23                                   fedora                    12 k
+ nodejs-sigmund                                 noarch                  1.0.0-8.fc23                                   fedora                    13 k
+ nodejs-slide                                   noarch                  1.1.5-3.fc23                                   fedora                    14 k
+ nodejs-sntp                                    noarch                  0.2.4-4.fc23                                   fedora                    15 k
+ nodejs-tar                                     noarch                  0.1.18-3.fc23                                  fedora                    27 k
+ nodejs-tunnel-agent                            noarch                  0.3.0-4.fc23                                   fedora                    11 k
+ nodejs-uid-number                              noarch                  0.0.3-10.fc23                                  fedora                    12 k
+ nodejs-which                                   noarch                  1.0.5-11.fc23                                  fedora                    12 k
+ npm                                            noarch                  1.3.6-8.fc23                                   fedora                   339 k
+ openssl-devel                                  x86_64                  1:1.0.2h-1.fc23                                updates                  1.5 M
+ v8-devel                                       x86_64                  1:3.14.5.10-21.fc23                            fedora                    64 k
+
+事务概要
+======================================================================================================================================================
+安装  87 软件包
+
+总下载：7.7 M
+安装大小：20 M
+
+35. 编译lantern依赖
+
+npm install -g gulp-cli
+
+gulp-cli@1.2.1 /usr/lib/node_modules/gulp-cli
+├── mute-stdout@1.0.0
+├── pretty-hrtime@1.0.2
+├── interpret@1.0.1
+├── archy@1.0.0
+├── fancy-log@1.2.0 (time-stamp@1.0.1)
+├── tildify@1.2.0 (os-homedir@1.0.1)
+├── v8flags@2.0.11 (user-home@1.1.1)
+├── semver-greatest-satisfied-range@1.0.0 (semver-regex@1.0.0, semver@4.3.6)
+├── gulplog@1.0.0 (glogg@1.0.0)
+├── wreck@6.3.0 (boom@2.10.1, hoek@2.16.3)
+├── chalk@1.1.3 (escape-string-regexp@1.0.5, supports-color@2.0.0, ansi-styles@2.2.1, has-ansi@2.0.0, strip-ansi@3.0.1)
+├── lodash.sortby@4.5.0 (lodash._baseflatten@4.2.1, lodash.rest@4.0.3, lodash._baseeach@4.1.3, lodash._baseiteratee@4.7.0)
+├── yargs@3.32.0 (decamelize@1.2.0, camelcase@2.1.1, y18n@3.2.1, window-size@0.1.4, cliui@3.2.0, string-width@1.0.1, os-locale@1.4.0)
+├── liftoff@2.2.1 (extend@2.0.1, rechoir@0.6.2, flagged-respawn@0.3.2, resolve@1.1.7, findup-sync@0.3.0)
+└── matchdep@1.0.1 (stack-trace@0.0.9, resolve@1.1.7, findup-sync@0.3.0, micromatch@2.3.8)
+
+
