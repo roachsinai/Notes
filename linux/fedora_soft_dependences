@@ -1079,3 +1079,6 @@ gulp-cli@1.2.1 /usr/lib/node_modules/gulp-cli
 36. 按照 lantern README.md 页面安装 go
 	编译lantern，跪~
 
+37. install R in conda
+    conda create -n R -c r r-essentials
+
