@@ -57,7 +57,7 @@
 
 25.dnf install python-scikit-learn # 已删除
 
-26.[root@roach xq]# dnf install go
+26.[root@roach xq]# dnf install go # 已删除
 dnf install gtk3 gtk3-devel
 dnf install libappindicator-gtk3-devel
 
@@ -152,3 +152,6 @@ gulp-cli@1.2.1 /usr/lib/node_modules/gulp-cli
     conda create -n R -c r r-essentials
 
 38. sudo dnf install ./atom.x86_64.rpm
+
+39. 为在 docker 中编译 lantern 安装 docker
+    https://docs.docker.com/engine/installation/linux/fedora/
