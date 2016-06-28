@@ -125,6 +125,10 @@
     uninstall anaconda:
         rm -rf ~/anaconda3
 
+------
+    issue1: 在 ipython 中，pgup, pgdn, home, 上下箭头等都不好用；
+        原因：没有安装 readline, 或者缺少 readline 的依赖。我是还需要安装conda install ncurses。
+        https://github.com/ContinuumIO/anaconda-issues/issues/455
 33. 已删除，并且删除了/etc/rstudio文件夹
         sudo dnf install --nogpgcheck rstudio-server-rhel-0.99.902-x86_64.rpm 
         
