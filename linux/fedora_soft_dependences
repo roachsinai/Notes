@@ -1,5 +1,3 @@
-3.  sudo dnf install nautilus-open-terminal
-
 #   在依赖中安装了 python 和 python-pip
 4.  sudo dnf install gnome-tweak-tool
     安装:
@@ -108,7 +106,7 @@
 
 30. dnf install R 已删除
 
-31. dnf install octave
+31. dnf install octave 已删除
 
 32. install anaconda:
         bash ~/Downloads/Anaconda3-4.0.0-Linux-x86_64.sh
@@ -141,7 +139,7 @@
         npm install -g gulp-cli
         删除：npm uninstall --global gulp-cli
 
-36. 按照 lantern README.md 页面安装 go
+36. 按照 lantern README.md 页面安装 go —— https://golang.org/doc/install
         编译lantern，跪~
 
 38. sudo dnf install ./atom.x86_64.rpm
@@ -156,3 +154,7 @@
         dnf install --allowerasing cairo-infinality-ultimate fontconfig-infinality-ultimate freetype-infinality-ultimate 移除：cairo freetype freetype-devel
         dnf install --allowerasing ibfonts-meta-base ibfonts-meta-extended-lt ibfonts-meta-extended
         如果要卸载，则需重新安装 cairo freetype freetype-devel，其他软件卸载
+
+41. open in terminal:
+        sudo dnf install gnome-terminal-nautilus
+42. sudo dnf remove rhythmbox
