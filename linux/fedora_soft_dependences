@@ -40,7 +40,7 @@
 
 18. sudo dnf install gcc
 
-### 19-22 运行jekyl 事后都删除了
+### 19-22 运行jekyll 事后都删除了
 19. sudo dnf group install "C Development Tools and Libraries"
 20. sudo dnf install libffi-devel
 21. sudo dnf install kernel-devel
