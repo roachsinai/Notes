@@ -488,3 +488,8 @@
 
 2. 修改远程仓库--origin的url
    git remote set-url origin https://github.com/roachsinai/Notes.git
+   git remote set-url origin git@github.com:roachsinai/Notes.git 
+
+3. 删除远程仓库，之后添加新的远程仓库
+   git remote rm origin
+   git remote add origin git@github.com:roachsinai/Notes.git

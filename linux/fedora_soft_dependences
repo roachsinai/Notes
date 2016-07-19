@@ -114,12 +114,24 @@
     update conda packages:
         source activate env(py27, R)
         conda update --all
+
 ---		
+
     install R in conda:
         conda create -n R -c r r-essentials
     install package: for example, "png"
         install.packages("png", "/home/'user'/anaconda3/lib/R/library")
 ---
+
+    notebook autocomplete:
+            if you don't have ipython_config.py in ~/.ipython/profile_default/ you can create one with:
+                ipython profile create
+            then edit ipython_config.py
+                c.Completer.greedy = True # <-- uncomment this line and set it to True
+            http://stackoverflow.com/questions/33498591/ipython-autocompletion-for-list-or-dict-of-objects
+
+---
+
     uninstall anaconda:
         rm -rf ~/anaconda3
 
