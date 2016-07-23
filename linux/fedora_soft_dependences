@@ -112,8 +112,11 @@
         bash ~/Downloads/Anaconda3-4.0.0-Linux-x86_64.sh
         export PATH="/home/username/anaconda/bin:$PATH"
     update conda packages:
-        source activate env(py27, R)
-        conda update --all
+        if have installed R, should add a file named .condarc as describe at http://conda.pydata.org/docs/install/sample-condarc.html
+        after that can update conda by
+            conda update --all
+        else should use command:
+            conda update --all -c r (-c: channels)
 
 ---		
 
