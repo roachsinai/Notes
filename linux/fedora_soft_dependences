@@ -175,6 +175,5 @@
 
 42. sudo dnf remove rhythmbox
 
-43. sudo dnf install gstreamer1-libav gstreamer1-plugins-ugly gstreamer1-plugins-bad-freeworld gstreamer1-vaapi #gstreamer1-plugins-bad-free 
-        gstreamer1-plugins-bad-free 已安装跳过 删除的时候需注意 不要随便删除
-        其他是本次安装
+43. install mp4 decoder
+        sudo dnf install gstreamer1-libav 
