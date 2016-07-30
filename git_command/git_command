@@ -1,3 +1,25 @@
+============================================================================================================================
+使用过程中出现的问题：
+
+1. git push origin master 出现错误
+   fatal：failed to write object
+   原因：期间用root提交了一次
+   解决方法：进入cd .git/objects
+                 ls | grep root
+                 chown -R "xq.xq" ./
+
+2. 修改远程仓库--origin的url
+   git remote set-url origin https://github.com/roachsinai/Notes.git
+   git remote set-url origin git@github.com:roachsinai/Notes.git
+
+3. 删除远程仓库，之后添加新的远程仓库
+   git remote rm origin
+   git remote add origin git@github.com:roachsinai/Notes.git
+
+
+============================================================================================================================
+
+
 !#基本命令
 
 ###设置开发者的个人信息###
@@ -13,7 +35,7 @@
   git init
   查看当前仓库状态：
   git status
-  
+
   这样会在工作区(当前电脑的操作目录) 生成一个隐藏目录.git，这不算工作区，而是Git的仓库(版本库)；
   Git的版本库里存了许多东西，其中最重要的就时称为stage的暂存区，和Git为用户自动创建的主程序分支master，以及指向master的HEAD指针；
 
@@ -49,7 +71,7 @@
   git status 显示 *修改了Hello.java,给出两种处理方法
                   *出现一个未标记文件，询问是否加入暂存区
 
-2.暂存区操作                  
+2.暂存区操作
   *使用git add . 将代码添加到暂存区
 
 3.提交修改
@@ -73,7 +95,7 @@
 
   ****那么如果说现在还想恢复到最新的状态呢？那么就必须找到回退的commit id;
   4.2找到所有的commit id：
-    git reflog 
+    git reflog
     **上面的命令给出回退到那一步，并给出了所有commint id的简写编号
 
     **恢复到最后一次提交：
@@ -97,7 +119,7 @@
   5.5 查询状态
       git status 提示：有的修改尚未加入提交
       进行对比:
-      git diff HEAD Hello.java 
+      git diff HEAD Hello.java
       HEAD是指向最后一次提交的指针，现在的含义是将HEAD中的Hello.java文件和工作区中的Hello.java文件进行对比；
   总结：如果一个文件修改了多次，那么就需要执行多次的add后才可以提交，即commit只提交添加到暂存区中的修改；
 
@@ -117,7 +139,7 @@
       git status 提示：你可以根据HEAD指针来恢复文件
 
       从暂存区撤出修改：
-      git reset HEAD Hello.java 
+      git reset HEAD Hello.java
       现在情况与6.1相同；
 
 7.删除文件
@@ -259,11 +281,11 @@
           由于新推送的是一个空分支，服务器认为推送的目的就是为了删除分支！
 
 4.3 冲突自动解决
-    
+
     分支可以实现多人的开发操作，但是可能出现一下情况：
     *现在建立了一个分支brh，并且有一位开发者在此分支上修改了Hello.java文件；(mldnback文件夹中)
     *但是由于开发者的失误，将分支切换到了master分支上，并且在master分支上也对Emp.java进行了修改;
-    
+
     **等于现在有两个分支对同一个文件进行了修改，那么进行提交的时候就一定会出现一个冲突；因为系统不知道究竟提交那一个分支的文件；
     4.3.1 建立并切换到brh分支； git checkout -b brh
     4.3.2 在此分支上修改Hello.java文件
@@ -281,7 +303,7 @@
 
 4.4 冲突手动解决
     上面的例子没有发现不能操作的冲突；下面是一个有冲突产生的例子；
-    4.4.1 准备过程 
+    4.4.1 准备过程
           删除brh分支 git branch -d brh
           修改Hello.java文件，(在master分支上)
           提交此修改 git commit -am "File Hello.java - simple method"
@@ -312,7 +334,7 @@
            git log --graph --pretty=oneline
            --graph 以绘图方式实现
     4.4.15 删除掉brh分支 git branch -d brh
-    
+
 4.5 分支的管理策略
     ****在之前进行的分支合并的时候使用的全部都是"Fast forward"方式进行的；此种方式只是改变了master指针，可是在分支的时候也可以不使用这种快合并；即增加一个"-no-ff"参数，就表示在合并后会再生成一个新的commit id，从而保证合并数据的完整性；
     4.5.1 创建一个新的分支 git checkout -b brh
@@ -324,7 +346,7 @@
           git merge --no-ff -m "No ff commit brh" brh ********
           "--no-ff"方式会带有一个新的提交，所以需要为提交设置一个提交的过程;
     4.5.6 查看一下提交后的日志信息
-          git log --graph --pretty=oneline --abbrev-commit 
+          git log --graph --pretty=oneline --abbrev-commit
     ****  ****经过测试发现fast forward与--no-ff的区别：如果是fast forword且合并时没有冲突，就会直接将master分支指向brh分支(如果有冲突则不能一ff方式进行合并)，即使用的是brh分支最新的commit id；以--no-ff方式进行合并，则在master分支新建一个commit id，将两个分支的内容合并到这里；
 
 4.6 分支暂存
@@ -387,7 +409,7 @@
           git checkout master
           此时自动在目录中生成了一个mypat补丁文件信息，这个文件是可以由git读懂的信息文件；现在模拟另外一个开发者，假设他是专门进行补丁合并的开发者；
     4.7.1.8 创建并切换一个新的分支git checkout -b patchbrh
-    4.7.1.9 应用补丁信息 
+    4.7.1.9 应用补丁信息
           git apply mypat
           此时补丁可以成功的使用了
     4.7.1.10 提交补丁的操作
@@ -396,7 +418,7 @@
            git checkout master
            git merge --no-ff -m "Merge patch" patchbrh
            这样如果只是将补丁数据的文件发给开发者，那么就没有必要进行大量的代码的传输，并且在创建补丁的时候也可以这对多个文件进行补丁的创建；
-    
+
     4.7.2 利用git format-patch生成git的专用补丁
           利用分支修改Emp.java文件
           准备工作删除上一步的分支：git branch -D cbrh
@@ -475,21 +497,3 @@
            git push origin brh
 
            现在已经由本地的冲突，扩充到了远程的冲突，并可以解决；
-
-
-============================================================================================================================
-使用过程中出现的问题：
-1. git push origin master 出现错误
-   fatal：failed to write object
-   原因：期间用root提交了一次
-   解决方法：进入cd .git/objects
-                 ls | grep root
-                 chown -R "xq.xq" ./
-
-2. 修改远程仓库--origin的url
-   git remote set-url origin https://github.com/roachsinai/Notes.git
-   git remote set-url origin git@github.com:roachsinai/Notes.git 
-
-3. 删除远程仓库，之后添加新的远程仓库
-   git remote rm origin
-   git remote add origin git@github.com:roachsinai/Notes.git
