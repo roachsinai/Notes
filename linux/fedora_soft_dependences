@@ -148,7 +148,7 @@
         For example: change default Network Port and Address
         https://support.rstudio.com/hc/en-us/articles/200552316-Configuring-the-Server
 
-34. dnf install npm 编译lantern依赖 已删除
+34. dnf install npm 编译lantern依赖 已删除 npm 在 nodejs 安装后已安装，不需要另行安装
 
 35. 编译lantern依赖 已删除
         npm install -g gulp-cli
@@ -177,3 +177,40 @@
 
 43. install mp4 decoder
         sudo dnf install gstreamer1-libav 
+
+44. install gitbook 需要在管理员权限下安装
+        npm install gitbook -g
+        npm install gitbook-cli -g
+        
+        安装gulp
+            npm install --global gulp-cli
+            npm init
+        下面使用非管理员权限安装：
+            npm install --save-dev gulp
+            npm install --save-dev gulp-gh-pages
+
+45. use jekyll, have to:
+        1. sudo dnf install ruby ruby-devel 
+        2. error when $ sudo gem install jekyll
+                error:/usr/lib/rpm/redhat/redhat-hardened-cc1 No that file and directory
+           sudo dnf install redhat-rpm-config
+        3. 
+    如果要删除，卸载上面所有安装的软件，然后删除以下文件：
+        sudo gem uninstall jekyll jekyll-jekyll-paginate
+
+        sudo gem uninstall -aIx 删除所有gems
+
+        # remove user-specific gems and git repos
+        rm -rf ~/.bundle/ ~/.gem/
+
+        # remove system-wide git repos and git checkouts
+        rm -rf $GEM_HOME/bundler/ $GEM_HOME/cache/bundler/
+        
+        # remove project-specific settings and git repos
+        rm -rf .bundle/
+        
+        # remove project-specific cached .gem files
+        rm -rf vendor/cache/
+        
+        # remove the saved resolve of the Gemfile
+        rm -rf Gemfile.lock
