@@ -214,3 +214,9 @@
         
         # remove the saved resolve of the Gemfile
         rm -rf Gemfile.lock
+
+46. build 32-bit program on 64-bit system:
+        sudo dnf install libstdc++-devel.i686 glibc-devel.i686
+
+    then, compile command:
+        g++ -m32 *.cpp
