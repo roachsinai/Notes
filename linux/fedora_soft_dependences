@@ -135,6 +135,13 @@
 
 ---
 
+    install non-conda packages:
+
+        source activate env
+        pip install watermark
+
+---
+
     uninstall anaconda:
         rm -rf ~/anaconda3
 
