@@ -16,6 +16,7 @@
    git remote rm origin
    git remote add origin git@github.com:roachsinai/Notes.git
 
+4. git-ssh 配置和使用: https://segmentfault.com/a/1190000002645623
 
 ============================================================================================================================
 
