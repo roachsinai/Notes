@@ -1,0 +1,18 @@
+1. 跟换14.04的源
+
+编辑/etc/apt/sources.list文件：
+
+deb http://mirrors.163.com/ubuntu/ trusty main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ trusty-security main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ trusty-backports main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty-security main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty-backports main restricted universe multiverse
+
+然后执行 sudo apt-get update 获取新的软件列表。
+
+2. Windows Subsystem for Linux terminal: wsltty.
