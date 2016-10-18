@@ -1,0 +1,7 @@
+1. 如果你在开启hadoop时使用的是sbin/start-all.sh，关闭使用stop-all.sh，那么在你将spark部署到hadoop上时，可能会出现“org.apache.hadoop.hdfs.server.namenode.SafeModeException:Name node is in safe mode”错误
+
+解决方法：
+	org.apache.hadoop.hdfs.server.namenode.SafeModeException:Name node is in safe mode - How to leave
+	http://unmeshasreeveni.blogspot.in/2014/04/name-node-is-in-safe-mode-how-to-leave.html
+
+其实只需要一个命令：$HADOOP_HOME/bin/hadoop dfsadmin -safemode leave

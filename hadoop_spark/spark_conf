@@ -1,0 +1,5 @@
+1. 如果你电脑中已经安装好了hadoop，然后下载的spark是不带hadoop版的，需要更改一下配置文件
+
+具体方法：
+	Using Spark's "Hadoop Free" Build
+	https://spark.apache.org/docs/latest/hadoop-provided.html
