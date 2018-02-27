@@ -6,6 +6,24 @@
             "browse" : {
                 "limitSymbolsToIncludedHeaders" : true,
                 "databaseFilename" : "${workspaceRoot}/.vscode/.browse.VC.db"
+            },
+            "name": "Linux",
+            "includePath": [
+                "${workspaceRoot}",
+                "/usr/include/c++/7.3.0",
+                "/usr/include/c++/7.3.0/x86_64-pc-linux-gnu",
+                "/usr/include/linux"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}",
+                    "/usr/local/include",
+                    "/usr/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
             }
         }
     ]
