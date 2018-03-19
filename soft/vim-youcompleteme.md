@@ -1,6 +1,18 @@
 ## Requirements
 
-`cmake boost python2`
+`cmake boost python2 clang`
+
+## install
+
+安装其实有两种方法：一种是讲Github上面的代码使用Vundle下载后调用作者提供的脚本安装；另一种是自己编译安装。
+
+第一种：
+
+`./install.py --clang-completer --system-libclang`
+
+再这种情况下，如果系统更新之后YCM出错，就使用Vundle更新一下YCM代码再使用脚本重新安装。
+
+第二种，如下：
 
 ### download ycm by vundle
 
