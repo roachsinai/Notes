@@ -5,5 +5,5 @@ C:
 gcc -xc -E -v -
 
 C++:
-`gcc -xc++ -E -v -
+gcc -xc++ -E -v -
 ```
