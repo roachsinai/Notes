@@ -1,12 +1,19 @@
 # Install NVIDIA Drivers and Bumbelee
 
 ```
+sudo vim /etc/modprobe.d/nouveau_blacklist.conf
+add:    blacklist nouveau
+
+sudo mkinitcpio -p linux414
+
 sudo mhwd -a pci nonfree 0300
 reboot
 
 sudo pacman -S virtualgl lib32-virtualgl lib32-primus primus
 sudo mhwd -f -i pci video-hybrid-intel-nvidia-bumblebee
 sudo systemctl enable bumblebeed
+sudo mkinitcpio -p linux414
+
 reboot
 ```
 
